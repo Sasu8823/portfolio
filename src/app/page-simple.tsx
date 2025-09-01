@@ -24,7 +24,7 @@ export default function HomeSimple() {
               href="/inquiry"
               className="px-8 py-3 bg-white/20 hover:bg-white/30 text-white rounded-full transition-colors"
             >
-              Contact Me
+              お問い合わせ
             </Link>
           </div>
         </div>

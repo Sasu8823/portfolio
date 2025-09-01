@@ -8,7 +8,7 @@ const projects = [
   {
     title: 'ファミ通.com - ゲーム総合情報サイト',
     description: 'ファミ通.comは、家庭用ゲーム、スマートフォンゲーム、PCゲームなど、あらゆるゲームに関する最新ニュース、レビュー、インタビュー、動画、特集記事などを提供する総合ゲーム情報サイトです。',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Python'],
+    technologies: ['Next', 'TypeScript', 'Tailwind CSS', 'Python'],
     images: [
       '/assets/img/Screenshot_31.png',
       '/assets/img/Screenshot_32.png',
@@ -19,7 +19,7 @@ const projects = [
   {
     title: '株式会社ベストエステート - 不動産売買・査定サービス',
     description: 'ベストエステートは、広島県を中心に不動産の売却、購入、無料査定を行う地域密着型の不動産会社です。物件情報、売却相談、スタッフ紹介など、ユーザーに安心感を与える情報が掲載されています。',
-    technologies: ['Next.js', 'Node.js', 'MongoDB','Google Analytics','Google Maps API'],
+    technologies: ['Next', 'Node.js', 'MongoDB','Google Analytics','Google Maps API'],
     images: [
       '/assets/img/Screenshot_34.png',
       '/assets/img/Screenshot_35.png',
@@ -177,7 +177,7 @@ export default function ProjectsPage() {
                 d="M10 19l-7-7m0 0l7-7m-7 7h18" 
               />
             </svg>
-            Back to Home
+            ホームに戻る
           </Link>
         </motion.div>
 

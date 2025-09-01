@@ -33,8 +33,8 @@ const Fireworks = () => {
       const particle: Particle = {
         x,
         y,
-        vx: (Math.random() - 0.5) * 8,
-        vy: (Math.random() - 0.5) * 8,
+        vx: (Math.random() - 0.5) * 3,
+        vy: (Math.random() - 0.5) * 3,
         alpha: 1,
         color: colors[Math.floor(Math.random() * colors.length)],
       };

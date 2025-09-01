@@ -74,7 +74,7 @@ export default function InquiryPage() {
                 d="M10 19l-7-7m0 0l7-7m-7 7h18" 
               />
             </svg>
-            Back to Home
+            ホームに戻る
           </Link>
         </motion.div>
 
@@ -84,11 +84,11 @@ export default function InquiryPage() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="bg-white/10 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/20 p-8"
         >
-          <h1 className="text-4xl font-bold text-white mb-8">Contact Me</h1>
+          <h1 className="text-4xl font-bold text-white mb-8">お問い合わせ</h1>
           
           {status === 'success' ? (
             <div className="bg-green-500/20 border border-green-500/50 rounded-lg p-4 text-white mb-6">
-              Message sent successfully! I'll get back to you soon.
+              メッセージは正常に送信されました。すぐにご連絡いたします。
             </div>
           ) : status === 'error' ? (
             <div className="bg-red-500/20 border border-red-500/50 rounded-lg p-4 text-white mb-6">
@@ -98,7 +98,7 @@ export default function InquiryPage() {
 
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label htmlFor="name" className="block text-white mb-2">Name</label>
+              <label htmlFor="name" className="block text-white mb-2">名前</label>
               <input
                 type="text"
                 id="name"
@@ -113,7 +113,7 @@ export default function InquiryPage() {
             </div>
 
             <div>
-              <label htmlFor="email" className="block text-white mb-2">Email</label>
+              <label htmlFor="email" className="block text-white mb-2">メール</label>
               <input
                 type="email"
                 id="email"
@@ -128,7 +128,7 @@ export default function InquiryPage() {
             </div>
 
             <div>
-              <label htmlFor="subject" className="block text-white mb-2">Subject</label>
+              <label htmlFor="subject" className="block text-white mb-2">主題</label>
               <input
                 type="text"
                 id="subject"
@@ -143,7 +143,7 @@ export default function InquiryPage() {
             </div>
 
             <div>
-              <label htmlFor="message" className="block text-white mb-2">Message</label>
+              <label htmlFor="message" className="block text-white mb-2">メッセージ</label>
               <textarea
                 id="message"
                 name="message"

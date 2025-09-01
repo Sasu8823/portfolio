@@ -17,13 +17,8 @@ const projects = [
     ],
     slug: 'project-1',
     details: 'Detailed description of Project 1...',
-    features: [
-      'Feature 1 description',
-      'Feature 2 description',
-      'Feature 3 description'
-    ],
-    challenges: 'Description of challenges faced and how they were overcome...',
-    learnings: 'Key learnings from the project...'
+
+    challenges: '   総合情報サイトはアクセス数も多く、攻撃対象になりやすいです。サイト改ざん防止、DDoS対策、個人情報保護など、セキュリティの確保も重要です。また、CMS運用や記事更新の権限管理も複雑になります。',
   },
   {
     title: '株式会社ベストエステート - 不動産売買・査定サービス',
@@ -36,13 +31,18 @@ const projects = [
     ],
     slug: 'project-2',
     details: 'Detailed description of Project 2...',
-    features: [
-      'Feature 1 description',
-      'Feature 2 description',
-      'Feature 3 description'
-    ],
-    challenges: 'Description of challenges faced and how they were overcome...',
-    learnings: 'Key learnings from the project...'
+
+    challenges: `リアルタイムでの地図連動
+
+Google Maps API を利用して、物件の位置を地図上に表示する際に、以下の課題があります。
+
+多数の物件をマップ上に効率的に表示するためのマーカー管理。
+
+マップの拡大・縮小、範囲検索との連動。
+
+モバイルでも快適に地図操作できるレスポンシブ対応。
+
+データの正確性・更新頻度の管理`,
   },
   {
     title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
@@ -55,13 +55,12 @@ const projects = [
     ],
     slug: 'project-3',
     details: 'Detailed description of Project 3...',
-    features: [
-      'Feature 1 description',
-      'Feature 2 description',
-      'Feature 3 description'
-    ],
-    challenges: 'Description of challenges faced and how they were overcome...',
-    learnings: 'Key learnings from the project...'
+
+    challenges: `予約・スケジュール管理
+
+ユーザーが希望日程で予約可能かを確認し、フォトグラファー側もスケジュール管理を行えるシステムを構築する必要があります。
+
+時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
   }
 ]
 
@@ -80,7 +79,7 @@ export default function ProjectPage() {
             href="/projects"
             className="mt-8 inline-block text-white hover:text-gray-300 transition-colors"
           >
-            Back to Projects
+            プロジェクトに戻る
           </Link>
         </div>
       </main>
@@ -113,7 +112,7 @@ export default function ProjectPage() {
                 d="M10 19l-7-7m0 0l7-7m-7 7h18" 
               />
             </svg>
-            Back to Projects
+            プロジェクトに戻る
           </Link>
         </motion.div>
 
@@ -143,28 +142,10 @@ export default function ProjectPage() {
 
           <div className="space-y-8">
             <section>
-              <h2 className="text-2xl font-semibold text-white mb-4">Project Details</h2>
-              <p className="text-gray-300">{project.details}</p>
+              <h2 className="text-2xl font-semibold text-white mb-4">チャレンジ</h2>
+              <p className="text-gray-300" style={{ whiteSpace: 'pre-line' }}>{project.challenges}</p>
             </section>
 
-            <section>
-              <h2 className="text-2xl font-semibold text-white mb-4">Key Features</h2>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
-                {project.features.map((feature, index) => (
-                  <li key={index}>{feature}</li>
-                ))}
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-white mb-4">Challenges</h2>
-              <p className="text-gray-300">{project.challenges}</p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-white mb-4">Key Learnings</h2>
-              <p className="text-gray-300">{project.learnings}</p>
-            </section>
           </div>
         </motion.div>
       </div>
