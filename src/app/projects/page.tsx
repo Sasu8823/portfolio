@@ -3,11 +3,16 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
+import Fireworks from '../../components/Fireworks'
 
 const projects = [
   {
     title: 'ファミ通.com - ゲーム総合情報サイト',
-    description: 'ファミ通.comは、家庭用ゲーム、スマートフォンゲーム、PCゲームなど、あらゆるゲームに関する最新ニュース、レビュー、インタビュー、動画、特集記事などを提供する総合ゲーム情報サイトです。',
+    description: `ファミ通.comは、家庭用ゲーム、スマートフォンゲーム、PCゲームなど、あらゆるゲームに関する最新ニュース、レビュー、インタビュー、動画、特集記事などを提供する総合ゲーム情報サイトです。
+    1次選考3分の1に残られた方全員に返信させていただいております。
+障害物レースに対する誤解が見られますのでご報告いたします。補聴器における障害物レースが始まるのは、患者が補聴器装用を決めてからではなく、補聴器供給側が補聴器を処方式通りに鼓膜に音が到達するように調整した時点で始まります。SASIKEでもそうですが、レースに参加できるのは、幾多の難関を潜り抜けた選べれし者だけですよね。前提条件が厳しいうえにそこからしかレースが始まらないという意味です。
+その後も幾多の障害物を乗り越えゴールに到達する必要があります。食器の音がうるさい、咀嚼音がうるさい、言葉がはっきり聞こえない（調整が不良、難聴の脳、高度難聴では普通に起こる）、装用すると耳が痛いあるいはかゆい、トンネルの中で聞いているよう（閉塞感）、マイクを通して聴いているよう、自分の声がやたら大きい、楽器の音がおかしい,頭痛がするetc. これらの障害を調整、慣れ、聴覚リハビリテーションを駆使して解決していくわけです。まるで障害物レースだと思いませんか。SASIKEのようにゴールにごく少数しか到達できないわけではありませんが中には、つらくて補聴器が装用できない、どうしても障害を解決できない、そもそもそんなにモチベーションが高くないなどで1割強の方（補聴器店よりは格段に少ない）が脱落します。
+リンク先が見れないとおっしゃっていた方がおられましたが、申し訳ございません、手違いで非公開になっておりました。今公開いたしましたのでご覧になれると思います。`,
     technologies: ['Next', 'TypeScript', 'Tailwind CSS', 'Python'],
     images: [
       '/assets/img/Screenshot_31.png',
@@ -153,6 +158,7 @@ const projects = [
 export default function ProjectsPage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 animate-gradient">
+      <Fireworks />
       <div className="max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -187,7 +193,7 @@ export default function ProjectsPage() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-4xl sm:text-5xl font-bold text-white mb-12 text-center"
         >
-          My Projects
+          私のプロジェクト
         </motion.h1>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -196,61 +202,61 @@ export default function ProjectsPage() {
           className="text-4xl sm:text-xl font-bold text-white mb-12 text-center "
           >
             <ul className='flex flex-wrap gap-2 justify-center max-w-80vw'>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-red-500 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     React
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-green-500 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     Next
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-yellow-500 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     WordPress
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-blue-500 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     Python
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-indigo-500 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     GSAP
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-pink-500 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     MySQL
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-red-900 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     MongoDB
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-yellow-900 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     WIX
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-green-900 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     SHOPIFY
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-blue-900 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     JavaScript
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-indigo-900 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     HTML, CSS
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-purple-900 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     JavaScript
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-pink-900 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     JQuery
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-red-50 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     BTOB
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-yellow-700 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     Woo-Commerce
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-green-700 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     STUDIO
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-blue-700 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     UTAGE
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-indigo-700 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     AI
                 </button>
-                <button className='px-3 py-1 bg-white/20 rounded-full text-sm text-white'>
+                <button className='px-3 py-1 bg-purple-700 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
                     Scrapping
                 </button>
             </ul>

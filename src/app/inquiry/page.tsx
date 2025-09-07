@@ -107,7 +107,7 @@ export default function InquiryPage() {
                 onChange={handleChange}
                 required
                 className="w-full px-4 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-white/40"
-                placeholder="Your name"
+                placeholder="あなたの名前"
                 disabled={status === 'loading'}
               />
             </div>
@@ -137,7 +137,7 @@ export default function InquiryPage() {
                 onChange={handleChange}
                 required
                 className="w-full px-4 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-white/40"
-                placeholder="What is this regarding?"
+                placeholder="これは何に関するものですか?"
                 disabled={status === 'loading'}
               />
             </div>
@@ -152,7 +152,7 @@ export default function InquiryPage() {
                 required
                 rows={6}
                 className="w-full px-4 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-white/40"
-                placeholder="Your message here..."
+                placeholder="ここにあなたのメッセージ..."
                 disabled={status === 'loading'}
               />
             </div>

@@ -4,6 +4,8 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { useParams } from 'next/navigation'
 import ImageSlider from '@/components/ImageSlider'
+import Fireworks from '../../../components/Fireworks'
+
 
 const projects = [
   {
@@ -88,6 +90,7 @@ export default function ProjectPage() {
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 animate-gradient">
+      <Fireworks />
       <div className="max-w-4xl mx-auto py-20 px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

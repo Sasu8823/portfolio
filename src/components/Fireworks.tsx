@@ -49,7 +49,7 @@ const Fireworks = () => {
       particles.current = particles.current.filter((particle) => {
         particle.x += particle.vx;
         particle.y += particle.vy;
-        particle.alpha -= 0.01;
+        particle.alpha -= 0.002;
 
         if (particle.alpha <= 0) return false;
 
@@ -65,7 +65,7 @@ const Fireworks = () => {
     };
 
     const handleMouseMove = (e: MouseEvent) => {
-      if (Math.random() < 0.3) {
+      if (Math.random() < 0.5) {
         createParticle(e.clientX, e.clientY);
       }
     };
