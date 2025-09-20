@@ -83,9 +83,9 @@ Google Maps API を利用して、物件の位置を地図上に表示する際�
 時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
   },
   {
-    title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
-    description: 'OurPhotoは、プロやセミプロのフォトグラファーとユーザーをマッチングする出張撮影プラットフォームです。記念日、家族写真、プロフィール写真など、様々なシーンに対応した撮影サービスを簡単に予約できます。A social media dashboard with analytics and reporting',
-    technologies: ['Vue.js', 'Laravel', 'Chart.js','A8.net','Moshimo', 'php'],
+    title: 'レガーレ 採用情報 - 地域密着型IT企業の求人サイト',
+    description: '株式会社レガーレの採用サイトで、システム開発やWeb制作、営業職などの求人情報を提供。会社紹介、社員インタビュー、福利厚生など、求職者向けに企業の魅力を伝える内容が充実しています。',
+    technologies: ['Wordpress', 'PHP', 'MySQL','GSAP','core-js','slick'],
     images: [
       '/assets/img/Screenshot_37.png',
       '/assets/img/Screenshot_38.png',
@@ -101,9 +101,9 @@ Google Maps API を利用して、物件の位置を地図上に表示する際�
 時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
   },
   {
-    title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
-    description: 'OurPhotoは、プロやセミプロのフォトグラファーとユーザーをマッチングする出張撮影プラットフォームです。記念日、家族写真、プロフィール写真など、様々なシーンに対応した撮影サービスを簡単に予約できます。A social media dashboard with analytics and reporting',
-    technologies: ['Vue.js', 'Laravel', 'Chart.js','A8.net','Moshimo', 'php'],
+    title: '株式会社田村塗装店 - 防水・塗装工事の専門業者',
+    description: '田村塗装店は、東京都・神奈川県を中心に、建物の塗装、防水工事、リフォーム工事を提供する企業です。会社概要、施工実績、採用情報など、地域密着の安心感が伝わる内容です。',
+    technologies: ['Wordpress', 'PHP', 'MySQL'],
     images: [
       '/assets/img/Screenshot_37.png',
       '/assets/img/Screenshot_38.png',
@@ -119,9 +119,9 @@ Google Maps API を利用して、物件の位置を地図上に表示する際�
 時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
   },
   {
-    title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
-    description: 'OurPhotoは、プロやセミプロのフォトグラファーとユーザーをマッチングする出張撮影プラットフォームです。記念日、家族写真、プロフィール写真など、様々なシーンに対応した撮影サービスを簡単に予約できます。A social media dashboard with analytics and reporting',
-    technologies: ['Vue.js', 'Laravel', 'Chart.js','A8.net','Moshimo', 'php'],
+    title: '門倉組 採用サイト - 建設業界のキャリアを支える採用情報',
+    description: ' 門倉組の採用専用サイトで、新卒・中途向けに企業情報、職種紹介、福利厚生、先輩社員インタビューなどを掲載。建設業界でのキャリア形成を支援する内容が充実しています。',
+    technologies: ['Wordpress', 'PHP', 'MySQL','GSAP'],
     images: [
       '/assets/img/Screenshot_37.png',
       '/assets/img/Screenshot_38.png',
@@ -137,9 +137,9 @@ Google Maps API を利用して、物件の位置を地図上に表示する際�
 時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
   },
   {
-    title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
-    description: 'OurPhotoは、プロやセミプロのフォトグラファーとユーザーをマッチングする出張撮影プラットフォームです。記念日、家族写真、プロフィール写真など、様々なシーンに対応した撮影サービスを簡単に予約できます。A social media dashboard with analytics and reporting',
-    technologies: ['Vue.js', 'Laravel', 'Chart.js','A8.net','Moshimo', 'php'],
+    title: 'Lifely株式会社 - 住まいと暮らしを豊かにするリノベーションサービス',
+    description: 'Lifelyは、東京都を中心に、戸建てやマンションのリノベーション・不動産仲介サービスを提供しています。物件購入からデザイン・施工までワンストップで対応する、ライフスタイル提案型企業です。',
+    technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL','GSAP'],
     images: [
       '/assets/img/Screenshot_37.png',
       '/assets/img/Screenshot_38.png',
@@ -155,9 +155,9 @@ Google Maps API を利用して、物件の位置を地図上に表示する際�
 時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
   },
   {
-    title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
-    description: 'OurPhotoは、プロやセミプロのフォトグラファーとユーザーをマッチングする出張撮影プラットフォームです。記念日、家族写真、プロフィール写真など、様々なシーンに対応した撮影サービスを簡単に予約できます。A social media dashboard with analytics and reporting',
-    technologies: ['Vue.js', 'Laravel', 'Chart.js','A8.net','Moshimo', 'php'],
+    title: '株式会社STリヴ - 解体工事・建築土木のプロフェッショナル',
+    description: 'STリヴは、大阪府を拠点に、解体工事、造成、土木工事を行う建設業者です。安全・迅速・丁寧な施工をモットーに、住宅や商業施設の解体など幅広く対応しています。',
+    technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL','GSAP'],
     images: [
       '/assets/img/Screenshot_37.png',
       '/assets/img/Screenshot_38.png',
@@ -173,9 +173,9 @@ Google Maps API を利用して、物件の位置を地図上に表示する際�
 時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
   },
   {
-    title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
-    description: 'OurPhotoは、プロやセミプロのフォトグラファーとユーザーをマッチングする出張撮影プラットフォームです。記念日、家族写真、プロフィール写真など、様々なシーンに対応した撮影サービスを簡単に予約できます。A social media dashboard with analytics and reporting',
-    technologies: ['Vue.js', 'Laravel', 'Chart.js','A8.net','Moshimo', 'php'],
+    title: 'オザワスタジオ - 群馬県桐生市のフォトスタジオ',
+    description: 'オザワスタジオは、群馬県桐生市にある老舗写真館です。七五三、成人式、家族写真、証明写真など幅広いジャンルの撮影を行っており、地域密着型のフォトサービスを提供しています。',
+    technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL','GSAP'],
     images: [
       '/assets/img/Screenshot_37.png',
       '/assets/img/Screenshot_38.png',
@@ -191,15 +191,33 @@ Google Maps API を利用して、物件の位置を地図上に表示する際�
 時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
   },
   {
-    title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
-    description: 'OurPhotoは、プロやセミプロのフォトグラファーとユーザーをマッチングする出張撮影プラットフォームです。記念日、家族写真、プロフィール写真など、様々なシーンに対応した撮影サービスを簡単に予約できます。A social media dashboard with analytics and reporting',
-    technologies: ['Vue.js', 'Laravel', 'Chart.js','A8.net','Moshimo', 'php'],
+    title: 'メンズ専門美容室の予約サイト',
+    description: 'Kami-wo-kiru.comは、男性向けのヘアサロン・美容室に特化した予約サイトです。ビジネススタイルやカジュアルスタイルなど、メンズカットに特化したサロンの情報と予約導線が整っています。',
+    technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL','GSAP'],
     images: [
       '/assets/img/Screenshot_37.png',
       '/assets/img/Screenshot_38.png',
       '/assets/img/Screenshot_39.png'
     ],
     slug: 'project-11',
+    details: 'Detailed description of Project 3...',
+
+    challenges: `予約・スケジュール管理
+
+ユーザーが希望日程で予約可能かを確認し、フォトグラファー側もスケジュール管理を行えるシステムを構築する必要があります。
+
+時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
+  },
+  {
+    title: '友禅会 - 日本舞踊を通じて伝統文化を次世代へ',
+    description: '友禅会は、日本舞踊の継承と普及を目的とした団体で、教室案内やイベント情報、発表会レポートなどを掲載しています。伝統芸能の魅力を現代にも伝える活動を展開しています。',
+    technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL','GSAP'],
+    images: [
+      '/assets/img/Screenshot_37.png',
+      '/assets/img/Screenshot_38.png',
+      '/assets/img/Screenshot_39.png'
+    ],
+    slug: 'project-12',
     details: 'Detailed description of Project 3...',
 
     challenges: `予約・スケジュール管理

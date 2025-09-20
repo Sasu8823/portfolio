@@ -137,17 +137,6 @@ const projects = [
       '/assets/img/Screenshot_39.png'
     ],
     slug: 'project-12'
-  },
-  {
-    title: 'Project 13',
-    description: 'A social media dashboard with analytics and reporting',
-    technologies: ['Vue.js', 'Firebase', 'Chart.js'],
-    images: [
-      '/assets/img/Screenshot_37.png',
-      '/assets/img/Screenshot_38.png',
-      '/assets/img/Screenshot_39.png'
-    ],
-    slug: 'project-13'
   }
 ]
 
