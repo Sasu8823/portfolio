@@ -8,11 +8,7 @@ import Fireworks from '../../components/Fireworks'
 const projects = [
   {
     title: 'ファミ通.com - ゲーム総合情報サイト',
-    description: `ファミ通.comは、家庭用ゲーム、スマートフォンゲーム、PCゲームなど、あらゆるゲームに関する最新ニュース、レビュー、インタビュー、動画、特集記事などを提供する総合ゲーム情報サイトです。
-    1次選考3分の1に残られた方全員に返信させていただいております。
-障害物レースに対する誤解が見られますのでご報告いたします。補聴器における障害物レースが始まるのは、患者が補聴器装用を決めてからではなく、補聴器供給側が補聴器を処方式通りに鼓膜に音が到達するように調整した時点で始まります。SASIKEでもそうですが、レースに参加できるのは、幾多の難関を潜り抜けた選べれし者だけですよね。前提条件が厳しいうえにそこからしかレースが始まらないという意味です。
-その後も幾多の障害物を乗り越えゴールに到達する必要があります。食器の音がうるさい、咀嚼音がうるさい、言葉がはっきり聞こえない（調整が不良、難聴の脳、高度難聴では普通に起こる）、装用すると耳が痛いあるいはかゆい、トンネルの中で聞いているよう（閉塞感）、マイクを通して聴いているよう、自分の声がやたら大きい、楽器の音がおかしい,頭痛がするetc. これらの障害を調整、慣れ、聴覚リハビリテーションを駆使して解決していくわけです。まるで障害物レースだと思いませんか。SASIKEのようにゴールにごく少数しか到達できないわけではありませんが中には、つらくて補聴器が装用できない、どうしても障害を解決できない、そもそもそんなにモチベーションが高くないなどで1割強の方（補聴器店よりは格段に少ない）が脱落します。
-リンク先が見れないとおっしゃっていた方がおられましたが、申し訳ございません、手違いで非公開になっておりました。今公開いたしましたのでご覧になれると思います。`,
+    description: 'ファミ通.comは、家庭用ゲーム、スマートフォンゲーム、PCゲームなど、あらゆるゲームに関する最新ニュース、レビュー、インタビュー、動画、特集記事などを提供する総合ゲーム情報サイトです。',
     technologies: ['Next', 'TypeScript', 'Tailwind CSS', 'Python'],
     images: [
       '/assets/img/Screenshot_31.png',
@@ -52,7 +48,7 @@ const projects = [
       '/assets/img/Screenshot_38.png',
       '/assets/img/Screenshot_39.png'   
     ],
-    slug: 'project-3'
+    slug: 'project-4'
   },
   {
     title: 'レガーレ 採用情報 - 地域密着型IT企業の求人サイト',
@@ -63,7 +59,7 @@ const projects = [
       '/assets/img/Screenshot_38.png',
       '/assets/img/Screenshot_39.png'
     ],
-    slug: 'project-3'
+    slug: 'project-5'
   },
   {
     title: '株式会社田村塗装店 - 防水・塗装工事の専門業者',
@@ -74,7 +70,7 @@ const projects = [
       '/assets/img/Screenshot_38.png',
       '/assets/img/Screenshot_39.png'
     ],
-    slug: 'project-3'
+    slug: 'project-6'
   },
   {
     title: '門倉組 採用サイト - 建設業界のキャリアを支える採用情報',
@@ -85,7 +81,7 @@ const projects = [
       '/assets/img/Screenshot_38.png',
       '/assets/img/Screenshot_39.png'
     ],
-    slug: 'project-3'
+    slug: 'project-7'
   },
   {
     title: 'Lifely株式会社 - 住まいと暮らしを豊かにするリノベーションサービス',
@@ -96,7 +92,7 @@ const projects = [
       '/assets/img/Screenshot_38.png',
       '/assets/img/Screenshot_39.png'
     ],
-    slug: 'project-3'
+    slug: 'project-8'
   },
   {
     title: '株式会社STリヴ - 解体工事・建築土木のプロフェッショナル',
@@ -107,7 +103,7 @@ const projects = [
       '/assets/img/Screenshot_38.png',
       '/assets/img/Screenshot_39.png'
     ],
-    slug: 'project-3'
+    slug: 'project-9'
   },
   {
     title: 'オザワスタジオ - 群馬県桐生市のフォトスタジオ',
@@ -118,7 +114,7 @@ const projects = [
       '/assets/img/Screenshot_38.png',
       '/assets/img/Screenshot_39.png'
     ],
-    slug: 'project-3'
+    slug: 'project-10'
   },
   {
     title: 'メンズ専門美容室の予約サイト',
@@ -129,7 +125,7 @@ const projects = [
       '/assets/img/Screenshot_38.png',
       '/assets/img/Screenshot_39.png'
     ],
-    slug: 'project-3'
+    slug: 'project-11'
   },
   {
     title: '友禅会 - 日本舞踊を通じて伝統文化を次世代へ',
@@ -140,10 +136,10 @@ const projects = [
       '/assets/img/Screenshot_38.png',
       '/assets/img/Screenshot_39.png'
     ],
-    slug: 'project-3'
+    slug: 'project-12'
   },
   {
-    title: 'Project 3',
+    title: 'Project 13',
     description: 'A social media dashboard with analytics and reporting',
     technologies: ['Vue.js', 'Firebase', 'Chart.js'],
     images: [
@@ -151,7 +147,7 @@ const projects = [
       '/assets/img/Screenshot_38.png',
       '/assets/img/Screenshot_39.png'
     ],
-    slug: 'project-3'
+    slug: 'project-13'
   }
 ]
 

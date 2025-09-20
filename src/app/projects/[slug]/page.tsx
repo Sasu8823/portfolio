@@ -63,6 +63,150 @@ Google Maps API を利用して、物件の位置を地図上に表示する際�
 ユーザーが希望日程で予約可能かを確認し、フォトグラファー側もスケジュール管理を行えるシステムを構築する必要があります。
 
 時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
+  },
+  {
+    title: 'SpeeLead（スピリード） - 営業リスト自動作成・営業支援ツール',
+    description: 'SpeeLeadは、法人営業向けに、企業リストの自動作成・ターゲティング・営業効率化を実現するSaaS型ツールです。業種や地域などの条件に基づいて見込み顧客を抽出し、営業リストとして活用できます。',
+    technologies: ['Wordpress', 'PHP', 'MySQL','GSAP'],
+    images: [
+      '/assets/img/Screenshot_37.png',
+      '/assets/img/Screenshot_38.png',
+      '/assets/img/Screenshot_39.png'
+    ],
+    slug: 'project-4',
+    details: 'Detailed description of Project 3...',
+
+    challenges: `予約・スケジュール管理
+
+ユーザーが希望日程で予約可能かを確認し、フォトグラファー側もスケジュール管理を行えるシステムを構築する必要があります。
+
+時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
+  },
+  {
+    title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
+    description: 'OurPhotoは、プロやセミプロのフォトグラファーとユーザーをマッチングする出張撮影プラットフォームです。記念日、家族写真、プロフィール写真など、様々なシーンに対応した撮影サービスを簡単に予約できます。A social media dashboard with analytics and reporting',
+    technologies: ['Vue.js', 'Laravel', 'Chart.js','A8.net','Moshimo', 'php'],
+    images: [
+      '/assets/img/Screenshot_37.png',
+      '/assets/img/Screenshot_38.png',
+      '/assets/img/Screenshot_39.png'
+    ],
+    slug: 'project-5',
+    details: 'Detailed description of Project 3...',
+
+    challenges: `予約・スケジュール管理
+
+ユーザーが希望日程で予約可能かを確認し、フォトグラファー側もスケジュール管理を行えるシステムを構築する必要があります。
+
+時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
+  },
+  {
+    title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
+    description: 'OurPhotoは、プロやセミプロのフォトグラファーとユーザーをマッチングする出張撮影プラットフォームです。記念日、家族写真、プロフィール写真など、様々なシーンに対応した撮影サービスを簡単に予約できます。A social media dashboard with analytics and reporting',
+    technologies: ['Vue.js', 'Laravel', 'Chart.js','A8.net','Moshimo', 'php'],
+    images: [
+      '/assets/img/Screenshot_37.png',
+      '/assets/img/Screenshot_38.png',
+      '/assets/img/Screenshot_39.png'
+    ],
+    slug: 'project-6',
+    details: 'Detailed description of Project 3...',
+
+    challenges: `予約・スケジュール管理
+
+ユーザーが希望日程で予約可能かを確認し、フォトグラファー側もスケジュール管理を行えるシステムを構築する必要があります。
+
+時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
+  },
+  {
+    title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
+    description: 'OurPhotoは、プロやセミプロのフォトグラファーとユーザーをマッチングする出張撮影プラットフォームです。記念日、家族写真、プロフィール写真など、様々なシーンに対応した撮影サービスを簡単に予約できます。A social media dashboard with analytics and reporting',
+    technologies: ['Vue.js', 'Laravel', 'Chart.js','A8.net','Moshimo', 'php'],
+    images: [
+      '/assets/img/Screenshot_37.png',
+      '/assets/img/Screenshot_38.png',
+      '/assets/img/Screenshot_39.png'
+    ],
+    slug: 'project-7',
+    details: 'Detailed description of Project 3...',
+
+    challenges: `予約・スケジュール管理
+
+ユーザーが希望日程で予約可能かを確認し、フォトグラファー側もスケジュール管理を行えるシステムを構築する必要があります。
+
+時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
+  },
+  {
+    title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
+    description: 'OurPhotoは、プロやセミプロのフォトグラファーとユーザーをマッチングする出張撮影プラットフォームです。記念日、家族写真、プロフィール写真など、様々なシーンに対応した撮影サービスを簡単に予約できます。A social media dashboard with analytics and reporting',
+    technologies: ['Vue.js', 'Laravel', 'Chart.js','A8.net','Moshimo', 'php'],
+    images: [
+      '/assets/img/Screenshot_37.png',
+      '/assets/img/Screenshot_38.png',
+      '/assets/img/Screenshot_39.png'
+    ],
+    slug: 'project-8',
+    details: 'Detailed description of Project 3...',
+
+    challenges: `予約・スケジュール管理
+
+ユーザーが希望日程で予約可能かを確認し、フォトグラファー側もスケジュール管理を行えるシステムを構築する必要があります。
+
+時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
+  },
+  {
+    title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
+    description: 'OurPhotoは、プロやセミプロのフォトグラファーとユーザーをマッチングする出張撮影プラットフォームです。記念日、家族写真、プロフィール写真など、様々なシーンに対応した撮影サービスを簡単に予約できます。A social media dashboard with analytics and reporting',
+    technologies: ['Vue.js', 'Laravel', 'Chart.js','A8.net','Moshimo', 'php'],
+    images: [
+      '/assets/img/Screenshot_37.png',
+      '/assets/img/Screenshot_38.png',
+      '/assets/img/Screenshot_39.png'
+    ],
+    slug: 'project-9',
+    details: 'Detailed description of Project 3...',
+
+    challenges: `予約・スケジュール管理
+
+ユーザーが希望日程で予約可能かを確認し、フォトグラファー側もスケジュール管理を行えるシステムを構築する必要があります。
+
+時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
+  },
+  {
+    title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
+    description: 'OurPhotoは、プロやセミプロのフォトグラファーとユーザーをマッチングする出張撮影プラットフォームです。記念日、家族写真、プロフィール写真など、様々なシーンに対応した撮影サービスを簡単に予約できます。A social media dashboard with analytics and reporting',
+    technologies: ['Vue.js', 'Laravel', 'Chart.js','A8.net','Moshimo', 'php'],
+    images: [
+      '/assets/img/Screenshot_37.png',
+      '/assets/img/Screenshot_38.png',
+      '/assets/img/Screenshot_39.png'
+    ],
+    slug: 'project-10',
+    details: 'Detailed description of Project 3...',
+
+    challenges: `予約・スケジュール管理
+
+ユーザーが希望日程で予約可能かを確認し、フォトグラファー側もスケジュール管理を行えるシステムを構築する必要があります。
+
+時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
+  },
+  {
+    title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
+    description: 'OurPhotoは、プロやセミプロのフォトグラファーとユーザーをマッチングする出張撮影プラットフォームです。記念日、家族写真、プロフィール写真など、様々なシーンに対応した撮影サービスを簡単に予約できます。A social media dashboard with analytics and reporting',
+    technologies: ['Vue.js', 'Laravel', 'Chart.js','A8.net','Moshimo', 'php'],
+    images: [
+      '/assets/img/Screenshot_37.png',
+      '/assets/img/Screenshot_38.png',
+      '/assets/img/Screenshot_39.png'
+    ],
+    slug: 'project-11',
+    details: 'Detailed description of Project 3...',
+
+    challenges: `予約・スケジュール管理
+
+ユーザーが希望日程で予約可能かを確認し、フォトグラファー側もスケジュール管理を行えるシステムを構築する必要があります。
+
+時間帯や地域ごとの空き状況の動的表示、予約の自動通知メールやリマインドなどを整合性高く実装することが課題です。`,
   }
 ]
 
