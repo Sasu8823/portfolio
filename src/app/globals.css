@@ -49,3 +49,7 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 255, 255, 0.4);
 }
+
+.hero-section{
+    background-image: url(../../public/assets/img/Screenshot_2.png);
+}

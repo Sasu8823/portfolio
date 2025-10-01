@@ -54,7 +54,7 @@ const Fireworks = () => {
         if (particle.alpha <= 0) return false;
 
         ctx.beginPath();
-        ctx.arc(particle.x, particle.y, 2, 0, Math.PI * 2);
+        ctx.arc(particle.x, particle.y, 1, 0, Math.PI * 2);
         ctx.fillStyle = `${particle.color}${Math.floor(particle.alpha * 255).toString(16).padStart(2, '0')}`;
         ctx.fill();
 

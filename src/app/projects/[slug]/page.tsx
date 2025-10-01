@@ -216,7 +216,7 @@ export default function ProjectPage() {
           className="bg-white/10 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/20 p-8"
         >
           <h1 className="text-4xl font-bold text-white mb-6">{project.title}</h1>
-          <p className="text-xl text-gray-300 mb-8">{project.description}</p>
+          <p className="text-xl text-gray-300 mb-8" style={{ whiteSpace: 'pre-line' }}>{project.description}</p>
           
           <div className="flex flex-wrap gap-2 mb-8">
             {project.technologies.map((tech) => (
