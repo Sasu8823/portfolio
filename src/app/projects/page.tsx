@@ -8,7 +8,7 @@ import Fireworks from '../../components/Fireworks'
 const projects = [
   {
     title: 'ファミ通.com - ゲーム総合情報サイト',
-    description: 'ファミ通.comは、家庭用ゲーム、スマートフォンゲーム、PCゲームなど、あらゆるゲームに関する最新ニュース、レビュー、インタビュー、動画、特集記事などを提供する総合ゲーム情報サイトです。',
+    description: `ファミ通.comは、家庭用ゲーム、スマートフォンゲーム、PCゲームなど、あらゆるゲームに関する最新ニュース、レビュー、インタビュー、動画、特集記事などを提供する総合ゲーム情報サイトです。`,
     technologies: ['Next', 'TypeScript', 'Tailwind CSS', 'Python'],
     images: [
       '/assets/img/Screenshot_31.png',
@@ -44,9 +44,9 @@ const projects = [
     description: 'SpeeLeadは、法人営業向けに、企業リストの自動作成・ターゲティング・営業効率化を実現するSaaS型ツールです。業種や地域などの条件に基づいて見込み顧客を抽出し、営業リストとして活用できます。',
     technologies: ['Wordpress', 'PHP', 'MySQL','GSAP'],
     images: [
-      '/assets/img/Screenshot_37.png',
-      '/assets/img/Screenshot_38.png',
-      '/assets/img/Screenshot_39.png'   
+      '/assets/img/Screenshot_2.png',
+      '/assets/img/Screenshot_3.png',
+      '/assets/img/Screenshot_4.png'   
     ],
     slug: 'project-4'
   },
@@ -55,9 +55,9 @@ const projects = [
     description: '株式会社レガーレの採用サイトで、システム開発やWeb制作、営業職などの求人情報を提供。会社紹介、社員インタビュー、福利厚生など、求職者向けに企業の魅力を伝える内容が充実しています。',
     technologies: ['Wordpress', 'PHP', 'MySQL','GSAP','core-js','slick'],
     images: [
-      '/assets/img/Screenshot_37.png',
-      '/assets/img/Screenshot_38.png',
-      '/assets/img/Screenshot_39.png'
+      '/assets/img/Screenshot_5.png',
+      '/assets/img/Screenshot_6.png',
+      '/assets/img/Screenshot_7.png'
     ],
     slug: 'project-5'
   },
@@ -66,9 +66,9 @@ const projects = [
     description: '田村塗装店は、東京都・神奈川県を中心に、建物の塗装、防水工事、リフォーム工事を提供する企業です。会社概要、施工実績、採用情報など、地域密着の安心感が伝わる内容です。',
     technologies: ['Wordpress', 'PHP', 'MySQL'],
     images: [
-      '/assets/img/Screenshot_37.png',
-      '/assets/img/Screenshot_38.png',
-      '/assets/img/Screenshot_39.png'
+      '/assets/img/Screenshot_9.png',
+      '/assets/img/Screenshot_10.png',
+      '/assets/img/Screenshot_11.png'
     ],
     slug: 'project-6'
   },
@@ -77,9 +77,9 @@ const projects = [
     description: ' 門倉組の採用専用サイトで、新卒・中途向けに企業情報、職種紹介、福利厚生、先輩社員インタビューなどを掲載。建設業界でのキャリア形成を支援する内容が充実しています。',
     technologies: ['Wordpress', 'PHP', 'MySQL','GSAP'],
     images: [
-      '/assets/img/Screenshot_37.png',
-      '/assets/img/Screenshot_38.png',
-      '/assets/img/Screenshot_39.png'
+      '/assets/img/Screenshot_12.png',
+      '/assets/img/Screenshot_13.png',
+      '/assets/img/Screenshot_14.png'
     ],
     slug: 'project-7'
   },
@@ -88,9 +88,9 @@ const projects = [
     description: 'Lifelyは、東京都を中心に、戸建てやマンションのリノベーション・不動産仲介サービスを提供しています。物件購入からデザイン・施工までワンストップで対応する、ライフスタイル提案型企業です。',
     technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL','GSAP'],
     images: [
-      '/assets/img/Screenshot_37.png',
-      '/assets/img/Screenshot_38.png',
-      '/assets/img/Screenshot_39.png'
+      '/assets/img/Screenshot_15.png',
+      '/assets/img/Screenshot_17.png',
+      '/assets/img/Screenshot_16.png'
     ],
     slug: 'project-8'
   },
@@ -99,9 +99,9 @@ const projects = [
     description: 'STリヴは、大阪府を拠点に、解体工事、造成、土木工事を行う建設業者です。安全・迅速・丁寧な施工をモットーに、住宅や商業施設の解体など幅広く対応しています。',
     technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL','GSAP'],
     images: [
-      '/assets/img/Screenshot_37.png',
-      '/assets/img/Screenshot_38.png',
-      '/assets/img/Screenshot_39.png'
+      '/assets/img/Screenshot_18.png',
+      '/assets/img/Screenshot_20.png',
+      '/assets/img/Screenshot_19.png'
     ],
     slug: 'project-9'
   },
@@ -110,33 +110,24 @@ const projects = [
     description: 'オザワスタジオは、群馬県桐生市にある老舗写真館です。七五三、成人式、家族写真、証明写真など幅広いジャンルの撮影を行っており、地域密着型のフォトサービスを提供しています。',
     technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL','GSAP'],
     images: [
-      '/assets/img/Screenshot_37.png',
-      '/assets/img/Screenshot_38.png',
-      '/assets/img/Screenshot_39.png'
+      '/assets/img/Screenshot_21.png',
+      '/assets/img/Screenshot_23.png',
+      '/assets/img/Screenshot_22.png'
     ],
     slug: 'project-10'
   },
   {
-    title: 'メンズ専門美容室の予約サイト',
-    description: 'Kami-wo-kiru.comは、男性向けのヘアサロン・美容室に特化した予約サイトです。ビジネススタイルやカジュアルスタイルなど、メンズカットに特化したサロンの情報と予約導線が整っています。',
-    technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL','GSAP'],
+    title: 'LINEで美容師+顧客マッチングシステム',
+    description: `・美容師がLINE経由でお客様とマッチングできる仕組みを構築
+                  ・マッチング1件につき500円の成果課金（Stripeで自動決済）
+                  ・お客様には施術予算に応じたランク（S〜C）を設定し、マッチング精度を向上`,
+    technologies: ['React', 'LIFF', 'Express', 'MySQL','LINE official account'],
     images: [
-      '/assets/img/Screenshot_37.png',
-      '/assets/img/Screenshot_38.png',
-      '/assets/img/Screenshot_39.png'
+      '/assets/img/Screenshot_24.png',
+      '/assets/img/Screenshot_25.png',
+      '/assets/img/Screenshot_26.png'
     ],
     slug: 'project-11'
-  },
-  {
-    title: '友禅会 - 日本舞踊を通じて伝統文化を次世代へ',
-    description: '友禅会は、日本舞踊の継承と普及を目的とした団体で、教室案内やイベント情報、発表会レポートなどを掲載しています。伝統芸能の魅力を現代にも伝える活動を展開しています。',
-    technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL','GSAP'],
-    images: [
-      '/assets/img/Screenshot_37.png',
-      '/assets/img/Screenshot_38.png',
-      '/assets/img/Screenshot_39.png'
-    ],
-    slug: 'project-12'
   }
 ]
 
