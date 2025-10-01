@@ -36,12 +36,7 @@ export default function Home() {
             >
               プロジェクトを見る
             </Link>
-            <Link
-              href="/inquiry"
-              className="px-8 py-3 bg-white/20 hover:bg-white/30 text-white rounded-full transition-colors"
-            >
-              お問い合わせ
-            </Link>
+            
           </div>
         </div>
       </section>
