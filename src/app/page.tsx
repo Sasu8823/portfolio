@@ -21,7 +21,7 @@ export default function Home() {
       <Fireworks />
 
       {/* Hero */}
-      <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+      <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 hero-section">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl sm:text-6xl font-bold mb-6">
             私のポートフォリオへようこそ
@@ -32,7 +32,7 @@ export default function Home() {
           <div className="flex justify-center gap-4">
             <Link
               href="/projects"
-              className="px-8 py-3 bg-white text-indigo-900 rounded-full font-semibold hover:bg-opacity-90 transition-all"
+              className="mt-20 px-8 py-3 bg-white text-indigo-900 rounded-full font-semibold hover:bg-opacity-90 transition-all"
             >
               プロジェクトを見る
             </Link>
@@ -42,16 +42,18 @@ export default function Home() {
       </section>
 
       {/* Photo Section */}
-      <section className="min-h-screen py-20 bg-indigo-800/30">
+      <section className="min-h-screen py-20 bg-indigo-800/30 intro-section">
         <div className="max-w-4xl mx-auto text-center">
           <Image
             src="/assets/img/avatar.png" // put your photo in public/me.jpg
             alt="My Photo"
             width={400}
             height={400}
-            className="mx-auto rounded-full border-4 border-white shadow-lg"
+            className="mx-auto rounded-3xl border-4 border-white shadow-lg"
           />
           <h2 className="text-3xl font-bold mt-6">こんにちは！</h2>
+          <br />
+          <br />
           <p>
             名前: ヘンドラ<br />
             年齢：26歳<br />
@@ -61,7 +63,7 @@ export default function Home() {
       </section>
 
       {/* About Me */}
-      <section className="min-h-screen py-20">
+      <section className="min-h-screen py-20 me-section">
         <div className="max-w-3xl mx-auto ">
           <h2 className="text-3xl font-bold mb-4 text-center">自己紹介</h2>
           <p className="text-lg text-gray-200">
@@ -114,7 +116,7 @@ export default function Home() {
       </section>
 
       {/* Programming Languages */}
-      <section className="min-h-screen py-28">
+      <section className="min-h-screen pt-12 programming-section">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8">学歴</h2>
           <ul className="space-y-4">

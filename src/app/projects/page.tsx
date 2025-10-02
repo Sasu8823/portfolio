@@ -243,7 +243,7 @@ export default function ProjectsPage() {
               key={project.slug}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: index * 0.2 }}
+              transition={{ duration: 2, delay: index * 0.5 }}
               className="bg-white/10 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/20 hover:border-white/40 transition-colors"
             >
               <Link href={`/projects/${project.slug}`}>

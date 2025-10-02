@@ -51,5 +51,18 @@ html {
 }
 
 .hero-section{
-    background-image: url(../../public/assets/img/Screenshot_2.png);
+    background-image: url(../../public/assets/img/top02_3_bg.jpg);
+}
+
+.intro-section {
+    background-image: url(../../public/assets/img/top02_1_bg.jpg);
+}
+
+.me-section {
+    background-image: url(../../public/assets/img/top02_bg.jpg);
+}
+
+.programming-section {
+    background-image: url(../../public/assets/img/main03.jpg);
+    overflow: inherit;
 }

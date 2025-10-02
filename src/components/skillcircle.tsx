@@ -41,18 +41,18 @@ const SkillCircle = ({ skill, visible }: { skill: Skill, visible: boolean }) => 
                 value={value}
                 text={`${value}%`}
                 styles={buildStyles({
-                    pathColor: "#9634cf83",
+                    pathColor: "#62df3007",
                     textColor: "#fff",
                     trailColor: "rgba(119, 81, 81, 0)",
                     textSize: '24px',
                 })}
             />
-            <div className="inset-0 flex items-center justify-center text-white text-sm font-semibold mt-5">
+            <div className="inset-0 flex items-center justify-center text-white text font-semibold mt-5">
                 {skill.name}
             </div>
             {/* 波を円形内に重ねる場合 */}
             <div className="absolute inset-0 rounded-full overflow-hidden w-full h-full">
-                <Wavify fill="rgba(50, 202, 240, 0.3)" paused={false} options={{ height: (100 - value) , amplitude: 5, speed: 0.5, points: 3 }} className="w-full h-full" />
+                <Wavify fill="rgba(45, 216, 22, 0.51)" paused={false} options={{ height: (100 - value) , amplitude: 5, speed: 0.3, points: 3 }} className="w-full h-full" />
             </div>
         </div>
     );
