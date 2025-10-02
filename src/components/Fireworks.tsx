@@ -28,17 +28,19 @@ const Fireworks = () => {
       canvas.height = window.innerHeight;
     };
 
-    const createParticle = (x: number, y: number) => {
-      const colors = ['#ff0000', '#ffa500', '#ffff00', '#00ff00', '#00ffff', '#0000ff', '#ff00ff'];
-      const particle: Particle = {
-        x,
-        y,
-        vx: (Math.random() - 0.5) * 3,
-        vy: (Math.random() - 0.5) * 3,
-        alpha: 1,
-        color: colors[Math.floor(Math.random() * colors.length)],
-      };
-      particles.current.push(particle);
+    const createParticle = (x: number, y: number, count = 10) => {
+      const colors = ['#8b39e9ff', '#ffa500', '#ffff00', '#e249f0ff', '#00ffff', '#0000ff', '#f06975da', '#68146885', '#cabe15ff', '#55bedfbb'];
+      for (let i = 0; i < count; i++) {
+        const particle: Particle = {
+          x,
+          y,
+          vx: (Math.random() - 0.5) * 3,
+          vy: (Math.random() - 0.5) * 3,
+          alpha: 1,
+          color: colors[Math.floor(Math.random() * colors.length)],
+        };
+        particles.current.push(particle);
+      }
     };
 
     const animate = () => {
