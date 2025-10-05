@@ -153,6 +153,50 @@ Google Maps API を利用して、物件の位置を地図上に表示する際�
       '/assets/img/Screenshot_26.png'
     ],
     slug: 'project-11'
+  },
+  {
+    title: 'DIFYを利用した業務計画書の作成',
+    description: `DIFYを活用することで、ChatGPTなどの生成AIを業務計画書の作成プロセスに組み込み、質問応答形式で必要情報を自動収集・整理できます。担当者が入力した事業方針や目標をもとに、AIが日次・週次・月次の行動計画を自動生成し、文書フォーマットまで整えてくれるため、短時間で完成度の高い業務計画書を作成できます。`,
+    technologies: ['Dify', 'LLM', 'chatGPT API', 'python'],
+    images: [
+      '/assets/img/Screenshot_56.png',
+      '/assets/img/Screenshot_57.png',
+      '/assets/img/Screenshot_58.png'
+    ],
+    slug: 'project-12'
+  },
+  {
+    title: 'Vue + Laravel + Dockerプロジェクトをさくらサーバーにデプロイ',
+    description: `Vue（フロントエンド）と Laravel（バックエンド）で構成された Web アプリケーションを Docker 環境でコンテナ化し、そのまま さくらのレンタルサーバー または さくらの VPS へデプロイするプロジェクトです。開発環境で動作している Docker コンテナ群（Laravel / Nginx / MySQL / Node など）を本番用に最適化し、セキュアかつスケーラブルな構成で稼働させることを目的としています。`,
+    technologies: ['Vue', 'Larvel', 'Docker', 'MySQL','Sakura VPS'],
+    images: [
+      '/assets/img/Screenshot_59.png',
+      '/assets/img/Screenshot_60.png',
+      '/assets/img/Screenshot_61.png'
+    ],
+    slug: 'project-13'
+  },
+  {
+    title: 'たったひとつのアニバーサリーケーキ | 誕生日ケーキ | 通販 | お取り寄せ',
+    description: `大切な誕生日や記念日をおしゃれな思い出に、たったひとつの特別なケーキを。出来立ての味をお届けするために、通販だからこそできる冷凍に対応した配合のオリジナルクリームは、１００％北海道産生クリームに新鮮な苺で作った自家製コンフィチュールをたっぷり入れた、苺の旨味と香りが広がる美味しさです。乳化剤を使用しない、こだわりのスポンジはフワフワの食感！生クリームとスポンジの相性も抜群です。`,
+    technologies: ['Shopify', 'PHP', 'MySQL'],
+    images: [
+      '/assets/img/Screenshot_44.png',
+      '/assets/img/Screenshot_45.png',
+      '/assets/img/Screenshot_46.png'
+    ],
+    slug: 'project-14'
+  },
+  {
+    title: 'たのしく、書く人。カキモリ',
+    description: `東京・蔵前にある「たのしく、書く人。」のための文具店。お好みで作るオーダーノートやオーダーインク。愛着の湧く、古びない文具セレクション。自分のために、大切な誰かのために「書く」楽しみをご提供します。海外発送可。`,
+    technologies: ['Shopify', 'PHP', 'JavaScript', 'MySQL'],
+    images: [
+      '/assets/img/Screenshot_53.png',
+      '/assets/img/Screenshot_54.png',
+      '/assets/img/Screenshot_55.png'
+    ],
+    slug: 'project-15'
   }
 ]
 
@@ -164,7 +208,7 @@ export default function ProjectPage() {
 
   if (!project) {
     return (
-      <main className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 animate-gradient">
+      <main className="min-h-screen ">
         <div className="max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold text-white text-center">Project not found</h1>
           <Link 
@@ -179,7 +223,7 @@ export default function ProjectPage() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 animate-gradient">
+    <main className="min-h-screen ">
       <Fireworks />
       <div className="max-w-4xl mx-auto py-20 px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -233,13 +277,6 @@ export default function ProjectPage() {
             <ImageSlider images={project.images} alt={project.title} />
           </div>
 
-          <div className="space-y-8">
-            <section>
-              <h2 className="text-2xl font-semibold text-white mb-4">チャレンジ</h2>
-              <p className="text-gray-300" style={{ whiteSpace: 'pre-line' }}>{project.challenges}</p>
-            </section>
-
-          </div>
         </motion.div>
       </div>
     </main>

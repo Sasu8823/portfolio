@@ -40,28 +40,6 @@ const projects = [
     slug: 'project-3'
   },
   {
-    title: 'SpeeLead（スピリード） - 営業リスト自動作成・営業支援ツール',
-    description: 'SpeeLeadは、法人営業向けに、企業リストの自動作成・ターゲティング・営業効率化を実現するSaaS型ツールです。業種や地域などの条件に基づいて見込み顧客を抽出し、営業リストとして活用できます。',
-    technologies: ['Wordpress', 'PHP', 'MySQL','GSAP'],
-    images: [
-      '/assets/img/Screenshot_2.png',
-      '/assets/img/Screenshot_3.png',
-      '/assets/img/Screenshot_4.png'   
-    ],
-    slug: 'project-4'
-  },
-  {
-    title: 'レガーレ 採用情報 - 地域密着型IT企業の求人サイト',
-    description: '株式会社レガーレの採用サイトで、システム開発やWeb制作、営業職などの求人情報を提供。会社紹介、社員インタビュー、福利厚生など、求職者向けに企業の魅力を伝える内容が充実しています。',
-    technologies: ['Wordpress', 'PHP', 'MySQL','GSAP','core-js','slick'],
-    images: [
-      '/assets/img/Screenshot_5.png',
-      '/assets/img/Screenshot_6.png',
-      '/assets/img/Screenshot_7.png'
-    ],
-    slug: 'project-5'
-  },
-  {
     title: '株式会社田村塗装店 - 防水・塗装工事の専門業者',
     description: '田村塗装店は、東京都・神奈川県を中心に、建物の塗装、防水工事、リフォーム工事を提供する企業です。会社概要、施工実績、採用情報など、地域密着の安心感が伝わる内容です。',
     technologies: ['Wordpress', 'PHP', 'MySQL'],
@@ -128,12 +106,56 @@ const projects = [
       '/assets/img/Screenshot_26.png'
     ],
     slug: 'project-11'
+  },
+  {
+    title: 'DIFYを利用した業務計画書の作成',
+    description: `DIFYを活用することで、ChatGPTなどの生成AIを業務計画書の作成プロセスに組み込み、質問応答形式で必要情報を自動収集・整理できます。担当者が入力した事業方針や目標をもとに、AIが日次・週次・月次の行動計画を自動生成し、文書フォーマットまで整えてくれるため、短時間で完成度の高い業務計画書を作成できます。`,
+    technologies: ['Dify', 'LLM', 'chatGPT API', 'python'],
+    images: [
+      '/assets/img/Screenshot_56.png',
+      '/assets/img/Screenshot_57.png',
+      '/assets/img/Screenshot_58.png'
+    ],
+    slug: 'project-12'
+  },
+  {
+    title: 'Vue + Laravel + Dockerプロジェクトをさくらサーバーにデプロイ',
+    description: `Vue（フロントエンド）と Laravel（バックエンド）で構成された Web アプリケーションを Docker 環境でコンテナ化し、そのまま さくらのレンタルサーバー または さくらの VPS へデプロイするプロジェクトです。開発環境で動作している Docker コンテナ群（Laravel / Nginx / MySQL / Node など）を本番用に最適化し、セキュアかつスケーラブルな構成で稼働させることを目的としています。`,
+    technologies: ['Vue', 'Larvel', 'Docker', 'MySQL','Sakura VPS'],
+    images: [
+      '/assets/img/Screenshot_59.png',
+      '/assets/img/Screenshot_60.png',
+      '/assets/img/Screenshot_61.png'
+    ],
+    slug: 'project-13'
+  },
+  {
+    title: 'たったひとつのアニバーサリーケーキ | 誕生日ケーキ | 通販 | お取り寄せ',
+    description: `大切な誕生日や記念日をおしゃれな思い出に、たったひとつの特別なケーキを。出来立ての味をお届けするために、通販だからこそできる冷凍に対応した配合のオリジナルクリームは、１００％北海道産生クリームに新鮮な苺で作った自家製コンフィチュールをたっぷり入れた、苺の旨味と香りが広がる美味しさです。乳化剤を使用しない、こだわりのスポンジはフワフワの食感！生クリームとスポンジの相性も抜群です。`,
+    technologies: ['Shopify', 'PHP', 'MySQL'],
+    images: [
+      '/assets/img/Screenshot_44.png',
+      '/assets/img/Screenshot_45.png',
+      '/assets/img/Screenshot_46.png'
+    ],
+    slug: 'project-14'
+  },
+  {
+    title: 'たのしく、書く人。カキモリ',
+    description: `東京・蔵前にある「たのしく、書く人。」のための文具店。お好みで作るオーダーノートやオーダーインク。愛着の湧く、古びない文具セレクション。自分のために、大切な誰かのために「書く」楽しみをご提供します。海外発送可。`,
+    technologies: ['Shopify', 'PHP', 'JavaScript', 'MySQL'],
+    images: [
+      '/assets/img/Screenshot_53.png',
+      '/assets/img/Screenshot_54.png',
+      '/assets/img/Screenshot_55.png'
+    ],
+    slug: 'project-15'
   }
 ]
 
 export default function ProjectsPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 animate-gradient">
+    <main className="min-h-screen ">
       <Fireworks />
       <div className="max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -243,7 +265,7 @@ export default function ProjectsPage() {
               key={project.slug}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 2, delay: index * 0.5 }}
+              transition={{ duration: 0.5, delay: index * 0.2 }}
               className="bg-white/10 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/20 hover:border-white/40 transition-colors"
             >
               <Link href={`/projects/${project.slug}`}>

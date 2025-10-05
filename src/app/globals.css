@@ -15,6 +15,10 @@ body {
     min-height: 100vh;
 }
 
+main {
+    background-image: linear-gradient(135deg, rgb(61, 113, 208), rgb(61, 113, 208) , rgb(114, 103, 215));
+}
+
 .animation-delay-2000 {
     animation-delay: 2s;
 }
@@ -58,11 +62,4 @@ html {
     background-image: url(../../public/assets/img/top02_1_bg.jpg);
 }
 
-.me-section {
-    background-image: url(../../public/assets/img/top02_bg.jpg);
-}
 
-.programming-section {
-    background-image: url(../../public/assets/img/main03.jpg);
-    overflow: inherit;
-}
