@@ -208,7 +208,30 @@ Google Maps API を利用して、物件の位置を地図上に表示する際�
       '/assets/img/Screenshot_74.png'
     ],
     slug: 'project-16'
-  }
+  },{
+    title: '相性診断文章生成 WEBアプリ',
+    description: `目的: 恋に悩む10〜30代が、入力済みの占い要素をもとに「前向きで寄り添う」相性結果を受け取り、勇気づけられる体験を提供する。
+    価値: 1つのサイトで複数の占い軸を横断・クロス集計して“総合判断”。
+    方針:
+
+    結果テキストは15行前後（225〜300文字程度）, ポジティブで応援するトーン。
+
+    保存はスクショ推奨、マイページは持たない（個人情報を保持しない）。
+
+    SNS優先度: Instagram ＞ X（Twitter）＞ LINE。
+
+    将来は PWA化 → さらに アプリ化 も検討（広告カット版や有料版の可能性）。
+
+    収益化は動画広告に依存しない方向（主にアフィリエイト）。`,
+    technologies: ['NEXT.js', 'ChatGPT API', 'AI', 'Node.js', 'Radix UI'],
+    images: [
+      '/assets/img/Compatibility-Test-Find-Your-Perfect-Match.png',
+      '/assets/img/Compatibility-Test-Find-Your-Perfect-Match-12.png',
+      '/assets/img/Compatibility-Test-Find-Your-Perfect-Match-1.png',
+      '/assets/img/Compatibility-Test-Find-Your-Perfect-Match-123.png',
+    ],
+    slug: 'project-17'
+  }, 
 ]
 
 export default function ProjectPage() {
