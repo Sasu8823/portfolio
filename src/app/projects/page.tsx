@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -7,9 +8,20 @@ import Fireworks from '../../components/Fireworks'
 
 const projects = [
   {
+    title: 'LINEステップAI自動化構築サービス',
+    description: `あなたのLINE公式アカウントをAIで自動化し、売上とエンゲージメントを向上させます。
+固定ステップ配信ではなく、ユーザーの反応に応じてAIが最適な返信・提案を行う新しいLINEマーケティングを構築します。東京・蔵前にある「たのしく、書く人。」のための文具店。お好みで作るオーダーノートやオーダーインク。愛着の湧く、古びない文具セレクション。自分のために、大切な誰かのために「書く」楽しみをご提供します。海外発送可。`,
+    technologies: ['Python', 'ChatGPT API', 'AI', 'LINE Messaging API', 'LINE Biz account'],
+    images: [
+      '/assets/img/Screenshot_73.png',
+      '/assets/img/Screenshot_74.png'
+    ],
+    slug: 'project-16'
+  },
+  {
     title: 'ファミ通.com - ゲーム総合情報サイト',
     description: `ファミ通.comは、家庭用ゲーム、スマートフォンゲーム、PCゲームなど、あらゆるゲームに関する最新ニュース、レビュー、インタビュー、動画、特集記事などを提供する総合ゲーム情報サイトです。`,
-    technologies: ['Next', 'TypeScript', 'Tailwind CSS', 'Python'],
+    technologies: ['Next', 'TypeScript', 'Tailwind', 'Swift UI'],
     images: [
       '/assets/img/Screenshot_31.png',
       '/assets/img/Screenshot_32.png',
@@ -20,7 +32,7 @@ const projects = [
   {
     title: '株式会社ベストエステート - 不動産売買・査定サービス',
     description: 'ベストエステートは、広島県を中心に不動産の売却、購入、無料査定を行う地域密着型の不動産会社です。物件情報、売却相談、スタッフ紹介など、ユーザーに安心感を与える情報が掲載されています。',
-    technologies: ['Next', 'Node.js', 'MongoDB','Google Analytics','Google Maps API'],
+    technologies: ['Next', 'Node.js', 'MongoDB', 'Google Analytics', 'Google Maps API'],
     images: [
       '/assets/img/Screenshot_34.png',
       '/assets/img/Screenshot_35.png',
@@ -31,7 +43,7 @@ const projects = [
   {
     title: 'OurPhoto（アワーフォト） - 出張撮影マッチングサービス',
     description: 'OurPhotoは、プロやセミプロのフォトグラファーとユーザーをマッチングする出張撮影プラットフォームです。記念日、家族写真、プロフィール写真など、様々なシーンに対応した撮影サービスを簡単に予約できます。',
-    technologies: ['Vue.js', 'Laravel', 'Chart.js','A8.net','Moshimo', 'php'],
+    technologies: ['Vue.js', 'Laravel', 'Chart.js', 'A8.net', 'Moshimo', 'php'],
     images: [
       '/assets/img/Screenshot_37.png',
       '/assets/img/Screenshot_38.png',
@@ -53,7 +65,7 @@ const projects = [
   {
     title: '門倉組 採用サイト - 建設業界のキャリアを支える採用情報',
     description: ' 門倉組の採用専用サイトで、新卒・中途向けに企業情報、職種紹介、福利厚生、先輩社員インタビューなどを掲載。建設業界でのキャリア形成を支援する内容が充実しています。',
-    technologies: ['Wordpress', 'PHP', 'MySQL','GSAP'],
+    technologies: ['Wordpress', 'PHP', 'MySQL', 'GSAP'],
     images: [
       '/assets/img/Screenshot_12.png',
       '/assets/img/Screenshot_13.png',
@@ -64,7 +76,7 @@ const projects = [
   {
     title: 'Lifely株式会社 - 住まいと暮らしを豊かにするリノベーションサービス',
     description: 'Lifelyは、東京都を中心に、戸建てやマンションのリノベーション・不動産仲介サービスを提供しています。物件購入からデザイン・施工までワンストップで対応する、ライフスタイル提案型企業です。',
-    technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL','GSAP'],
+    technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL', 'GSAP'],
     images: [
       '/assets/img/Screenshot_15.png',
       '/assets/img/Screenshot_17.png',
@@ -75,7 +87,7 @@ const projects = [
   {
     title: '株式会社STリヴ - 解体工事・建築土木のプロフェッショナル',
     description: 'STリヴは、大阪府を拠点に、解体工事、造成、土木工事を行う建設業者です。安全・迅速・丁寧な施工をモットーに、住宅や商業施設の解体など幅広く対応しています。',
-    technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL','GSAP'],
+    technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL', 'GSAP'],
     images: [
       '/assets/img/Screenshot_18.png',
       '/assets/img/Screenshot_20.png',
@@ -86,7 +98,7 @@ const projects = [
   {
     title: 'オザワスタジオ - 群馬県桐生市のフォトスタジオ',
     description: 'オザワスタジオは、群馬県桐生市にある老舗写真館です。七五三、成人式、家族写真、証明写真など幅広いジャンルの撮影を行っており、地域密着型のフォトサービスを提供しています。',
-    technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL','GSAP'],
+    technologies: ['WordPress', 'Woo-commerce', 'PHP', 'MySQL', 'GSAP'],
     images: [
       '/assets/img/Screenshot_21.png',
       '/assets/img/Screenshot_23.png',
@@ -99,7 +111,7 @@ const projects = [
     description: `・美容師がLINE経由でお客様とマッチングできる仕組みを構築
                   ・マッチング1件につき500円の成果課金（Stripeで自動決済）
                   ・お客様には施術予算に応じたランク（S〜C）を設定し、マッチング精度を向上`,
-    technologies: ['React', 'LIFF', 'Express', 'MySQL','LINE official account'],
+    technologies: ['React', 'LIFF', 'Express', 'MySQL', 'LINE official account'],
     images: [
       '/assets/img/Screenshot_24.png',
       '/assets/img/Screenshot_25.png',
@@ -121,7 +133,7 @@ const projects = [
   {
     title: 'Vue + Laravel + Dockerプロジェクトをさくらサーバーにデプロイ',
     description: `Vue（フロントエンド）と Laravel（バックエンド）で構成された Web アプリケーションを Docker 環境でコンテナ化し、そのまま さくらのレンタルサーバー または さくらの VPS へデプロイするプロジェクトです。開発環境で動作している Docker コンテナ群（Laravel / Nginx / MySQL / Node など）を本番用に最適化し、セキュアかつスケーラブルな構成で稼働させることを目的としています。`,
-    technologies: ['Vue', 'Larvel', 'Docker', 'MySQL','Sakura VPS'],
+    technologies: ['Vue', 'Larvel', 'Docker', 'MySQL', 'Sakura VPS'],
     images: [
       '/assets/img/Screenshot_59.png',
       '/assets/img/Screenshot_60.png',
@@ -153,38 +165,67 @@ const projects = [
   }
 ]
 
+const techFilters = [
+  "React", "Next", "WordPress", "AI", "Python", "GSAP", "MySQL",
+  "MongoDB", "WIX", "Shopify", "JavaScript", "HTML, CSS", "BTOB",
+  "Woo-Commerce", "STUDIO", "UTAGE", "Scrapping",
+];
+
 export default function ProjectsPage() {
+  const [selectedTech, setSelectedTech] = useState<string[]>([]);
+
+  // --- Filter logic ---
+  const filteredProjects =
+    selectedTech.length === 0
+      ? projects
+      : projects.filter((project) =>
+          project.technologies.some((tech) =>
+            selectedTech.some((sel) =>
+              tech.toLowerCase().includes(sel.toLowerCase())
+            )
+          )
+        );
+
+  // --- Toggle filters ---
+  const handleFilter = (tech: string) => {
+    setSelectedTech((prev) =>
+      prev.includes(tech) ? prev.filter((t) => t !== tech) : [...prev, tech]
+    );
+  };
+
   return (
-    <main className="min-h-screen ">
+    <main className="min-h-screen">
       <Fireworks />
       <div className="max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8">
+        {/* Back to Home */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="mb-12"
         >
-          <Link 
+          <Link
             href="/"
             className="inline-flex items-center text-white hover:text-gray-300 transition-colors"
           >
-            <svg 
-              className="w-6 h-6 mr-2" 
-              fill="none" 
-              stroke="currentColor" 
+            <svg
+              className="w-6 h-6 mr-2"
+              fill="none"
+              stroke="currentColor"
               viewBox="0 0 24 24"
             >
-              <path 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                strokeWidth={2} 
-                d="M10 19l-7-7m0 0l7-7m-7 7h18" 
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M10 19l-7-7m0 0l7-7m-7 7h18"
               />
             </svg>
             ホームに戻る
           </Link>
         </motion.div>
 
+        {/* Title */}
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -193,79 +234,62 @@ export default function ProjectsPage() {
         >
           私のプロジェクト
         </motion.h1>
+
+        {/* --- Filter Buttons --- */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-4xl sm:text-xl font-bold text-white mb-12 text-center "
-          >
-            <ul className='flex flex-wrap gap-2 justify-center max-w-80vw'>
-                <button className='px-3 py-1 bg-red-500 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    React
-                </button>
-                <button className='px-3 py-1 bg-green-500 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    Next
-                </button>
-                <button className='px-3 py-1 bg-yellow-500 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    WordPress
-                </button>
-                <button className='px-3 py-1 bg-blue-500 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    Python
-                </button>
-                <button className='px-3 py-1 bg-indigo-500 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    GSAP
-                </button>
-                <button className='px-3 py-1 bg-pink-500 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    MySQL
-                </button>
-                <button className='px-3 py-1 bg-red-900 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    MongoDB
-                </button>
-                <button className='px-3 py-1 bg-yellow-900 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    WIX
-                </button>
-                <button className='px-3 py-1 bg-green-900 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    SHOPIFY
-                </button>
-                <button className='px-3 py-1 bg-blue-900 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    JavaScript
-                </button>
-                <button className='px-3 py-1 bg-indigo-900 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    HTML, CSS
-                </button>
-                <button className='px-3 py-1 bg-purple-900 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    JavaScript
-                </button>
-                <button className='px-3 py-1 bg-pink-900 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    JQuery
-                </button>
-                <button className='px-3 py-1 bg-red-50 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    BTOB
-                </button>
-                <button className='px-3 py-1 bg-yellow-700 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    Woo-Commerce
-                </button>
-                <button className='px-3 py-1 bg-green-700 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    STUDIO
-                </button>
-                <button className='px-3 py-1 bg-blue-700 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    UTAGE
-                </button>
-                <button className='px-3 py-1 bg-indigo-700 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    AI
-                </button>
-                <button className='px-3 py-1 bg-purple-700 bg-opacity-50 border-2 border-opacity-75 rounded-full text-sm text-white'>
-                    Scrapping
-                </button>
-            </ul>
+          className="text-4xl sm:text-xl font-bold text-white mb-12 text-center"
+        >
+          <ul className="flex flex-wrap gap-2 justify-center max-w-80vw">
+            {techFilters.map((tech) => (
+              <button
+                key={tech}
+                onClick={() => handleFilter(tech)}
+                className={`px-3 py-1 border-2 rounded-full text-sm transition-colors ${
+                  selectedTech.includes(tech)
+                    ? "bg-white text-black border-white"
+                    : "bg-white/20 text-white hover:bg-white/40"
+                }`}
+              >
+                {tech}
+              </button>
+            ))}
+          </ul>
+
+          {/* Selected tech list */}
+          {selectedTech.length > 0 && (
+            <div className="mt-4 space-y-2">
+              <p className="text-gray-300 text-sm">
+                現在のフィルター:{" "}
+                <span className="text-white">
+                  {selectedTech.join(", ")}
+                </span>
+              </p>
+              <button
+                onClick={() => setSelectedTech([])}
+                className="px-3 py-1 bg-white/20 hover:bg-white/40 rounded-full text-sm text-white transition"
+              >
+                フィルターをクリア
+              </button>
+            </div>
+          )}
         </motion.div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
+
+        {/* --- Project Cards Grid --- */}
+        <motion.div
+          layout
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
+          {filteredProjects.map((project, index) => (
             <motion.div
               key={project.slug}
+              layout
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.4, delay: index * 0.1 }}
               className="bg-white/10 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/20 hover:border-white/40 transition-colors"
             >
               <Link href={`/projects/${project.slug}`}>
@@ -279,8 +303,12 @@ export default function ProjectsPage() {
                   />
                 </div>
                 <div className="p-6">
-                  <h2 className="text-2xl font-semibold text-white mb-2">{project.title}</h2>
-                  <p className="text-gray-300 mb-4">{project.description}</p>
+                  <h2 className="text-2xl font-semibold text-white mb-2">
+                    {project.title}
+                  </h2>
+                  <p className="text-gray-300 mb-4">
+                    {project.description}
+                  </p>
                   <div className="flex flex-wrap gap-2">
                     {project.technologies.map((tech) => (
                       <span
@@ -295,8 +323,15 @@ export default function ProjectsPage() {
               </Link>
             </motion.div>
           ))}
-        </div>
+        </motion.div>
+
+        {/* --- No Results --- */}
+        {filteredProjects.length === 0 && (
+          <p className="text-gray-400 text-center mt-10">
+            該当するプロジェクトがありません。
+          </p>
+        )}
       </div>
     </main>
-  )
-} 
+  );
+}

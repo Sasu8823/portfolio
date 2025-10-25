@@ -197,6 +197,17 @@ Google Maps API を利用して、物件の位置を地図上に表示する際�
       '/assets/img/Screenshot_55.png'
     ],
     slug: 'project-15'
+  },
+  {
+    title: 'LINEステップAI自動化構築サービス',
+    description: `あなたのLINE公式アカウントをAIで自動化し、売上とエンゲージメントを向上させます。
+固定ステップ配信ではなく、ユーザーの反応に応じてAIが最適な返信・提案を行う新しいLINEマーケティングを構築します。東京・蔵前にある「たのしく、書く人。」のための文具店。お好みで作るオーダーノートやオーダーインク。愛着の湧く、古びない文具セレクション。自分のために、大切な誰かのために「書く」楽しみをご提供します。海外発送可。`,
+    technologies: ['Python', 'ChatGPT API', 'LINE Messaging API', 'LINE Biz account' ],
+    images: [
+      '/assets/img/Screenshot_73.png',
+      '/assets/img/Screenshot_74.png'
+    ],
+    slug: 'project-16'
   }
 ]
 
