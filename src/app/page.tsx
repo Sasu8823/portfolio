@@ -151,7 +151,7 @@ export default function Home() {
         >
           <img
             src="/assets/img/discord.jpg"
-            alt="Discord"
+            alt="watakushi_dev"
             className="w-full h-full object-contain"
           />
         </a>
