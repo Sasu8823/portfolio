@@ -110,7 +110,6 @@ export default function Home() {
             技術だけではなく「人」としての信頼関係を大切にしています。<br />
             安心してお任せいただけるパートナーとして、<br />
             共に未来を切り拓いていければと願っております。<br />
-            chatwork : Moshi_AI
           </p>
         </div>
       </section>
