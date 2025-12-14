@@ -128,6 +128,22 @@ export default function Home() {
         </div>
             <SkillSection />
       </section>
+
+      {/* Conatact info */}
+      <section className="">
+        <div className="h-20 w-20">
+          <img src="chatwork.png" alt="" />
+          <a href="https://www.chatwork.com/banyani09"></a>
+        </div>
+        <div className="h-20 w-20">
+          <img src="discord.jpg" alt="" />
+          <a href="">UserName : watakushi_dev</a>
+        </div>
+        <div className="h-20 w-20">
+          <img src="telegram.png" alt="" />
+          <a href="https://t.me/mauUob"></a>
+        </div>
+      </section>
     </main>
   )
 }
