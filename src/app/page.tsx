@@ -144,7 +144,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://discord.com"
+          href="https://discord.com/watakushi_dev"
           target="_blank"
           rel="noopener noreferrer"
           className="h-20 w-20 block text-center"
@@ -154,7 +154,6 @@ export default function Home() {
             alt="Discord"
             className="w-full h-full object-contain"
           />
-          <p className="text-sm mt-1">watakushi_dev</p>
         </a>
 
         <a
