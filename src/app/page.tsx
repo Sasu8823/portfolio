@@ -36,7 +36,7 @@ export default function Home() {
             >
               プロジェクトを見る
             </Link>
-            
+
           </div>
         </div>
       </section>
@@ -125,23 +125,50 @@ export default function Home() {
             </li>
           </ul>
         </div>
-            <SkillSection />
+        <SkillSection />
       </section>
 
-      {/* Conatact info */}
-      <section className="">
-        <div className="h-20 w-20">
-          <img src="../../public/assets/img/chatwork.png" alt="" />
-          <a href="https://www.chatwork.com/banyani09"></a>
-        </div>
-        <div className="h-20 w-20">
-          <img src="../../public/assets/img/discord.jpg" alt="" />
-          <a href="">UserName : watakushi_dev</a>
-        </div>
-        <div className="h-20 w-20">
-          <img src="../../public/assets/img/telegram.png" alt="" />
-          <a href="https://t.me/mauUob"></a>
-        </div>
+      {/* Contact info */}
+      <section className="flex gap-6">
+        <a
+          href="https://www.chatwork.com/banyani09"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="h-20 w-20 block"
+        >
+          <img
+            src="/assets/img/chatwork.png"
+            alt="Chatwork"
+            className="w-full h-full object-contain"
+          />
+        </a>
+
+        <a
+          href="https://discord.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="h-20 w-20 block text-center"
+        >
+          <img
+            src="/assets/img/discord.jpg"
+            alt="Discord"
+            className="w-full h-full object-contain"
+          />
+          <p className="text-sm mt-1">watakushi_dev</p>
+        </a>
+
+        <a
+          href="https://t.me/mauUob"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="h-20 w-20 block"
+        >
+          <img
+            src="/assets/img/telegram.png"
+            alt="Telegram"
+            className="w-full h-full object-contain"
+          />
+        </a>
       </section>
     </main>
   )
