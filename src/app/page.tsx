@@ -129,7 +129,7 @@ export default function Home() {
       </section>
 
       {/* Contact info */}
-      <section className="flex gap-6">
+      <section className="flex gap-6 justify-center">
         <a
           href="https://www.chatwork.com/banyani09"
           target="_blank"
