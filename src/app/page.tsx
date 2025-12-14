@@ -134,7 +134,7 @@ export default function Home() {
           href="https://www.chatwork.com/banyani09"
           target="_blank"
           rel="noopener noreferrer"
-          className="h-20 w-20 block"
+          className="h-10 w-10 block"
         >
           <img
             src="/assets/img/chatwork.png"
@@ -147,7 +147,7 @@ export default function Home() {
           href="https://discord.com/watakushi_dev"
           target="_blank"
           rel="noopener noreferrer"
-          className="h-20 w-20 block text-center"
+          className="h-10 w-10 block text-center"
         >
           <img
             src="/assets/img/discord.jpg"
@@ -160,7 +160,7 @@ export default function Home() {
           href="https://t.me/mauUob"
           target="_blank"
           rel="noopener noreferrer"
-          className="h-20 w-20 block"
+          className="h-10 w-10 block"
         >
           <img
             src="/assets/img/telegram.png"
