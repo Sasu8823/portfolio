@@ -144,7 +144,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://discord.com/watakushi_dev"
+          href="https://discord.com/UserName:watakushi_dev"
           target="_blank"
           rel="noopener noreferrer"
           className="h-10 w-10 block text-center"
@@ -157,13 +157,13 @@ export default function Home() {
         </a>
 
         <a
-          href="https://t.me/mauUob"
+          href="https://iplus-comunity.slack.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="h-10 w-10 block"
         >
           <img
-            src="/assets/img/telegram.png"
+            src="/assets/img/slack.png"
             alt="Telegram"
             className="w-full h-full object-contain"
           />
