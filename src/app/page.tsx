@@ -168,6 +168,19 @@ export default function Home() {
             className="w-full h-full object-contain"
           />
         </a>
+
+        <a
+          href="mailto:tengb443@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="h-10 w-10 block"
+        >
+          <img
+            src="/assets/img/mail.png"
+            alt="Email"
+            className="w-full h-full object-contain"
+          />
+        </a>
       </section>
     </main>
   )
