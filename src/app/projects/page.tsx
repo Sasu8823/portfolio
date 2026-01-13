@@ -31,7 +31,8 @@ const projects = [
 
     将来は PWA化 → さらに アプリ化 も検討（広告カット版や有料版の可能性）。
 
-    収益化は動画広告に依存しない方向（主にアフィリエイト）。`,
+    収益化は動画広告に依存しない方向（主にアフィリエイト）。
+    URL; https://ai-mixer.jp/`,
     technologies: ['NEXT.js', 'ChatGPT API', 'AI', 'Node.js', 'Radix UI'],
     images: [
       '/assets/img/Compatibility-Test-Find-Your-Perfect-Match.png',
@@ -166,7 +167,8 @@ const projects = [
   },
   {
     title: 'たったひとつのアニバーサリーケーキ | 誕生日ケーキ | 通販 | お取り寄せ',
-    description: `大切な誕生日や記念日をおしゃれな思い出に、たったひとつの特別なケーキを。出来立ての味をお届けするために、通販だからこそできる冷凍に対応した配合のオリジナルクリームは、１００％北海道産生クリームに新鮮な苺で作った自家製コンフィチュールをたっぷり入れた、苺の旨味と香りが広がる美味しさです。乳化剤を使用しない、こだわりのスポンジはフワフワの食感！生クリームとスポンジの相性も抜群です。`,
+    description: `大切な誕生日や記念日をおしゃれな思い出に、たったひとつの特別なケーキを。出来立ての味をお届けするために、通販だからこそできる冷凍に対応した配合のオリジナルクリームは、１００％北海道産生クリームに新鮮な苺で作った自家製コンフィチュールをたっぷり入れた、苺の旨味と香りが広がる美味しさです。乳化剤を使用しない、こだわりのスポンジはフワフワの食感！生クリームとスポンジの相性も抜群です。
+    URL; https://anniversary-cake.com/`,
     technologies: ['Shopify', 'PHP', 'MySQL'],
     images: [
       '/assets/img/Screenshot_44.png',
@@ -177,7 +179,8 @@ const projects = [
   },
   {
     title: 'たのしく、書く人。カキモリ',
-    description: `東京・蔵前にある「たのしく、書く人。」のための文具店。お好みで作るオーダーノートやオーダーインク。愛着の湧く、古びない文具セレクション。自分のために、大切な誰かのために「書く」楽しみをご提供します。海外発送可。`,
+    description: `東京・蔵前にある「たのしく、書く人。」のための文具店。お好みで作るオーダーノートやオーダーインク。愛着の湧く、古びない文具セレクション。自分のために、大切な誰かのために「書く」楽しみをご提供します。海外発送可。
+    URL; https://kakimori.com/`,
     technologies: ['Shopify', 'PHP', 'JavaScript', 'MySQL'],
     images: [
       '/assets/img/Screenshot_53.png',
@@ -197,7 +200,8 @@ const projects = [
 入力内容は自動的に保存されます。
 
 本フォームは、アメリカビザ申請に必須となる申請書作成のための重要な情報収集フォームです。
-円滑で正確な申請のため、どうぞご協力くださいますようお願い申し上げます。`,
+円滑で正確な申請のため、どうぞご協力くださいますようお願い申し上げます。
+URL; 非公開`,
     technologies: ['Next.js', 'React', 'Tailwind CSS', 'MySQL' , 'google sheet download function' , 'mail notification function','AI translation function'],
     images: [
       '/assets/img/Screenshot_151.png',
@@ -213,7 +217,8 @@ const projects = [
 また、プロパティの設定に適していると思われる質問は、
 ・遠く住んでいる子供でも、簡単に答えられる質問にする
 ・質問数は、多くても10文～20文（回答できない場合は、「知らない」という回答もできる）
-・応答結果の利用はメッセージを生成するためのものなので、AIで分析すればよい。`,
+・応答結果の利用はメッセージを生成するためのものなので、AIで分析すればよい。
+    URL;https://liff.line.me/2007856156-GXQbyd30`,
     technologies: ['LINE Messaging API', 'React', 'Tailwind CSS', 'MySQL' , 'Select form' ,'check button UI' ,'LLM'],
     images: [
       '/assets/img/Screenshot_158.png',
@@ -223,7 +228,8 @@ const projects = [
     slug: 'project-19'
   }, {
     title: 'お正月お祝い占星術ランディングページ',
-    description: `お正月お祝い占星術ランディングページです。`,
+    description: `お正月お祝い占星術ランディングページです。
+    URL;https://mikeneco.co.jp/2026_newyear/`,
     technologies: ['HTML', 'SCSS', 'Javascript', 'GSAP'],
     images: [
       '/assets/img/Screenshot_154.png',
