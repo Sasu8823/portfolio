@@ -120,7 +120,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-8">学歴</h2>
           <ul className="space-y-4">
             <li className="bg-white/10 p-4 rounded-lg text-center">
-              <h3 className="text-xl font-semibold ">セベラス・マレット大学大学 – コンピュータサイエンス学部</h3>
+              <h3 className="text-xl font-semibold ">セベラス・マレット大学 – コンピュータサイエンス学部</h3>
               <p className="text-gray-200">2017 - 2021</p>
             </li>
           </ul>
