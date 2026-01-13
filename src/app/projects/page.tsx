@@ -185,7 +185,53 @@ const projects = [
       '/assets/img/Screenshot_55.png'
     ],
     slug: 'project-15'
-  }
+  },
+  {
+    title: '米国ビザ申請フォームの設計・開発',
+    description: `DS-160は、アメリカ非移民ビザ申請に必要な公式オンライン申請フォームです。
+    本フォームでは、アメリカビザ申請に必要な情報を多数ご入力いただくため、
+入力には相応のお時間がかかることが予想されます。
+
+各項目に正確にご入力のうえ、
+「次のページへ進む」ボタンを押していただくと、
+入力内容は自動的に保存されます。
+
+本フォームは、アメリカビザ申請に必須となる申請書作成のための重要な情報収集フォームです。
+円滑で正確な申請のため、どうぞご協力くださいますようお願い申し上げます。`,
+    technologies: ['Next.js', 'React', 'Tailwind CSS', 'MySQL' , 'google sheet download function' , 'mail notification function','AI translation function'],
+    images: [
+      '/assets/img/Screenshot_151.png',
+      '/assets/img/Screenshot_152.png',
+      '/assets/img/Screenshot_153.png'
+    ],
+    slug: 'project-18'
+  },{
+    title: '親の想いを届けるLINEミニアプリ',
+    description: `「My Personality」診断を実施しました。
+親のプロパティを設定しました。
+
+また、プロパティの設定に適していると思われる質問は、
+・遠く住んでいる子供でも、簡単に答えられる質問にする
+・質問数は、多くても10文～20文（回答できない場合は、「知らない」という回答もできる）
+・応答結果の利用はメッセージを生成するためのものなので、AIで分析すればよい。`,
+    technologies: ['LINE Messaging API', 'React', 'Tailwind CSS', 'MySQL' , 'Select form' ,'check button UI' ,'LLM'],
+    images: [
+      '/assets/img/Screenshot_158.png',
+      '/assets/img/Screenshot_159.png',
+      '/assets/img/Screenshot_160.png'
+    ],
+    slug: 'project-19'
+  }, {
+    title: 'お正月お祝い占星術ランディングページ',
+    description: `お正月お祝い占星術ランディングページです。`,
+    technologies: ['HTML', 'SCSS', 'Javascript', 'GSAP'],
+    images: [
+      '/assets/img/Screenshot_154.png',
+      '/assets/img/Screenshot_156.png',
+      '/assets/img/Screenshot_157.png'
+    ],
+    slug: 'project-20'
+  },
 ]
 
 const techFilters = [
