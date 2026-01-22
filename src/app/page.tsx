@@ -131,7 +131,7 @@ export default function Home() {
       {/* Contact info */}
       <section className="flex gap-6 justify-center">
         <a
-          href="https://www.chatwork.com/banyani09"
+          href="https://www.chatwork.com/hendra_048"
           target="_blank"
           rel="noopener noreferrer"
           className="h-10 w-10 block"
