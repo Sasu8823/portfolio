@@ -6,7 +6,7 @@ import Link from 'next/link'
 import Fireworks from '@/components/Fireworks';
 import Image from 'next/image'
 import SkillSection from "@/components/skillsection"
-
+import TubesBackground from "@/components/TubesBackground"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <main className=" text-white" >
-      <Fireworks />
+      <TubesBackground />
 
       {/* Hero */}
       <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 hero-section">
