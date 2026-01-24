@@ -16,10 +16,7 @@ export default function TubesBackground() {
         }
 
         const init = async () => {
-            const { default: TubesCursor } = await import(
-                'https://cdn.jsdelivr.net/npm/threejs-components@0.0.19/build/cursors/tubes1.min.js'
-              )
-
+            const { default: TubesCursor } = await import('@/lib/tubesCursor')
 
             if (!mounted || !canvasRef.current) return
 
