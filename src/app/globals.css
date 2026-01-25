@@ -16,7 +16,12 @@ body {
 }
 
 main {
-    background-image: linear-gradient(135deg, rgb(61, 113, 208), rgb(61, 113, 208) , rgb(114, 103, 215));
+    background-color: rgba(20, 20, 20, 0);
+}
+
+section,
+div {
+    background-color: rgba(12, 12, 12, 0);
 }
 
 .animation-delay-2000 {
@@ -53,13 +58,3 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 255, 255, 0.4);
 }
-
-.hero-section{
-    background-image: url(../../public/assets/img/top02_3_bg.jpg);
-}
-
-.intro-section {
-    background-image: url(../../public/assets/img/top02_1_bg.jpg);
-}
-
-

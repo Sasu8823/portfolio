@@ -14,14 +14,13 @@ gsap.registerPlugin(ScrollTrigger)
 export default function Home() {
 
 
-
-
   return (
     <main className=" text-white" >
       <TubesBackground />
 
       {/* Hero */}
       <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 hero-section">
+      
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl sm:text-6xl font-bold mb-6">
             私のポートフォリオへようこそ
@@ -42,7 +41,7 @@ export default function Home() {
       </section>
 
       {/* Photo Section */}
-      <section className="min-h-screen py-20 bg-indigo-800/30 intro-section">
+      <section className="min-h-screen py-20 intro-section">
         <div className="max-w-4xl mx-auto text-center">
           <Image
             src="/assets/img/avatar.png" // put your photo in public/me.jpg
@@ -56,7 +55,6 @@ export default function Home() {
           <br />
           <p>
             名前: ヘンドラ<br />
-            年齢：26歳<br />
             職業：業務委託エンジニア
           </p>
         </div>
