@@ -24,7 +24,7 @@ export default function TubesBackground() {
                 tubes: {
                     colors: ['#f967fb', '#53bc28', '#6958d5'],
                     lights: {
-                        intensity: 400,
+                        intensity: 200,
                         colors: ['#83f36e', '#fe8a2e', '#ff008a', '#60aed5']
                     }
                 }

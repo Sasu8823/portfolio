@@ -14,8 +14,6 @@ gsap.registerPlugin(ScrollTrigger)
 export default function Home() {
 
 
-
-
   return (
     <main className=" text-white" >
       <TubesBackground />
@@ -43,7 +41,7 @@ export default function Home() {
       </section>
 
       {/* Photo Section */}
-      <section className="min-h-screen py-20 bg-indigo-800/30 intro-section">
+      <section className="min-h-screen py-20 intro-section">
         <div className="max-w-4xl mx-auto text-center">
           <Image
             src="/assets/img/avatar.png" // put your photo in public/me.jpg
