@@ -55,7 +55,6 @@ export default function Home() {
           <br />
           <p>
             名前: ヘンドラ<br />
-            年齢：26歳<br />
             職業：業務委託エンジニア
           </p>
         </div>
