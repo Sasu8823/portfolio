@@ -61,7 +61,7 @@ export default function Home() {
       <section className="min-h-screen py-20 bg-indigo-800/30 intro-section">
         <div className="max-w-4xl mx-auto text-center">
           <Image
-            src="/assets/img/avatar.png" // put your photo in public/me.jpg
+            src="/assets/img/Screenshot_179.png" // put your photo in public/me.jpg
             alt="My Photo"
             width={400}
             height={400}
@@ -72,7 +72,6 @@ export default function Home() {
           <br />
           <p>
             名前: ヘンドラ<br />
-            年齢：26歳<br />
             職業：業務委託エンジニア
           </p>
         </div>
