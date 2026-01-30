@@ -9,6 +9,23 @@ import SkillSection from "@/components/skillsection"
 
 gsap.registerPlugin(ScrollTrigger)
 
+export const metadata = {
+  openGraph: {
+    title: "Hendra – Fullstack & AI Engineer",
+    description: "WordPress, AI automation, SaaS, and system development",
+    url: "https://portfolio-hendras-projects.vercel.app",
+    siteName: "ポートフォリオ",
+    images: [
+      {
+        url: "/assets/img/top02_3_bg.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+};
+
 
 export default function Home() {
 
