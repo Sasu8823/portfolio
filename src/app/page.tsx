@@ -1,5 +1,6 @@
 'use client'
 import { useEffect } from "react"
+import { Metadata } from "next"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import Link from 'next/link'
