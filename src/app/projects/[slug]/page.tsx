@@ -342,7 +342,7 @@ export default function ProjectPage() {
   return (
     <main className="min-h-screen ">
       <Fireworks />
-      <div className="max-w-4xl mx-auto py-20 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto py-20 px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
