@@ -63,7 +63,7 @@ export default function Home() {
       <section className="min-h-screen py-20 me-section">
         <div className="max-w-3xl mx-auto ">
           <h2 className="text-3xl font-bold mb-4 text-center">自己紹介</h2>
-          <p className="text-lg p-20 text-gray-200">
+          <p className="text-lg p-4 text-gray-200">
             はじめまして。<br />
             <br />
             開発は単なる作業ではなく、一つの芸術です。<br />
