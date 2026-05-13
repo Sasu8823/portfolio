@@ -53,8 +53,8 @@ export default function Home() {
           <br />
           <br />
           <p>
-            名前: 藤本 大樹<br />
-            職業：業務委託エンジニア
+            名前: 村越敏一<br />
+            職業：プロジェクトマネージャー
           </p>
         </div>
       </section>
