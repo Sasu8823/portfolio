@@ -128,46 +128,7 @@ export default function Home() {
       {/* Contact info */}
       <section className="flex gap-6 justify-center">
         <a
-          href="https://www.chatwork.com/hendra_048"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="h-10 w-10 block"
-        >
-          <img
-            src="/assets/img/chatwork.png"
-            alt="Chatwork"
-            className="w-full h-full object-contain"
-          />
-        </a>
-
-        <a
-          href="https://discord.com/UserName:watakushi_dev"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="h-10 w-10 block text-center"
-        >
-          <img
-            src="/assets/img/discord.jpg"
-            alt="watakushi_dev"
-            className="w-full h-full object-contain"
-          />
-        </a>
-
-        <a
-          href="https://iplus-comunity.slack.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="h-10 w-10 block"
-        >
-          <img
-            src="/assets/img/slack.png"
-            alt="Telegram"
-            className="w-full h-full object-contain"
-          />
-        </a>
-
-        <a
-          href="mailto:tengb443@gmail.com"
+          href="mailto:stackover.info@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           className="h-10 w-10 block"
