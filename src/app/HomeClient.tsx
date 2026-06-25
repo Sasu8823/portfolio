@@ -338,19 +338,6 @@ export default function Home() {
             {t.contact.title}
           </h2>
         </Reveal3D>
-        <Reveal3D delay={100}>
-          <a
-            href="mailto:stackover.info@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3 px-6 py-3
-                       bg-white/10 backdrop-blur-sm border border-emerald-400/30
-                       rounded-full hover:bg-emerald-400/20 transition-colors"
-          >
-            <img src="/assets/img/mail.png" alt="Email" className="w-8 h-8 object-contain" />
-            <span className="text-emerald-200">stackover.info@gmail.com</span>
-          </a>
-        </Reveal3D>
       </section>
     </main>
   )
