@@ -201,20 +201,20 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.7, ease: 'backOut' }}
-            className="flex justify-center gap-4"
+            className="flex flex-col sm:flex-row justify-center items-center gap-3 w-full px-6 sm:px-0"
           >
             <Link
               href="/projects"
-              className="inline-block px-8 py-3 bg-emerald-400 text-emerald-950 rounded-full
+              className="block w-full sm:w-auto text-center px-8 py-3 bg-emerald-400 text-emerald-950 rounded-full
                          font-semibold hover:bg-emerald-300 transition-colors shadow-lg
-                         shadow-emerald-500/40"
+                         shadow-emerald-500/40 whitespace-nowrap"
             >
               {t.hero.cta}
             </Link>
             <Link
               href="/inquiry"
-              className="inline-block px-8 py-3 border border-emerald-400 text-emerald-200
-                         rounded-full font-semibold hover:bg-emerald-400/20 transition-colors"
+              className="block w-full sm:w-auto text-center px-8 py-3 border border-emerald-400 text-emerald-200
+                         rounded-full font-semibold hover:bg-emerald-400/20 transition-colors whitespace-nowrap"
             >
               {t.hero.ctaContact}
             </Link>
