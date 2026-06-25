@@ -1,10 +1,9 @@
 'use client'
 
-import { useState } from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import Image from 'next/image'
 import Fireworks from '../../components/Fireworks'
+import ProjectCarousel3D from '../../components/ProjectCarousel3D'
 
 const projects = [
   {
@@ -240,173 +239,50 @@ URL; 非公開`,
   },
 ]
 
-const techFilters = [
-  "React", "Next", "WordPress", "AI", "Python", "GSAP", "MySQL",
-  "MongoDB", "WIX", "Shopify", "JavaScript", "HTML, CSS", "BTOB",
-  "Woo-Commerce", "STUDIO", "UTAGE", "Scrapping",
-];
-
 export default function ProjectsPage() {
-  const [selectedTech, setSelectedTech] = useState<string[]>([]);
-
-  // --- Filter logic ---
-  const filteredProjects =
-    selectedTech.length === 0
-      ? projects
-      : projects.filter((project) =>
-          project.technologies.some((tech) =>
-            selectedTech.some((sel) =>
-              tech.toLowerCase().includes(sel.toLowerCase())
-            )
-          )
-        );
-
-  // --- Toggle filters ---
-  const handleFilter = (tech: string) => {
-    setSelectedTech((prev) =>
-      prev.includes(tech) ? prev.filter((t) => t !== tech) : [...prev, tech]
-    );
-  };
-
   return (
     <main className="min-h-screen">
       <Fireworks />
-      <div className="max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8">
-        {/* Back to Home */}
+
+      {/* ── 3D Circular Carousel ─────────────────────────── */}
+      <div className="relative">
+        {/* heading */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: -16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="mb-12"
+          className="absolute top-6 inset-x-0 z-20 text-center pointer-events-none"
         >
-          <Link
-            href="/"
-            className="inline-flex items-center text-white hover:text-gray-300 transition-colors"
+          <h1 className="text-2xl sm:text-3xl font-black text-white tracking-widest uppercase">
+            Projects
+          </h1>
+          <p
+            className="mt-1 text-[10px] tracking-[0.3em] uppercase"
+            style={{ color: 'rgba(255,255,255,0.35)' }}
           >
-            <svg
-              className="w-6 h-6 mr-2"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M10 19l-7-7m0 0l7-7m-7 7h18"
-              />
-            </svg>
-            ホームに戻る
-          </Link>
-        </motion.div>
-
-        {/* Title */}
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-4xl sm:text-5xl font-bold text-white mb-12 text-center"
-        >
-          私のプロジェクト
-        </motion.h1>
-
-        {/* --- Filter Buttons --- */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-4xl sm:text-xl font-bold text-white mb-12 text-center"
-        >
-          <ul className="flex flex-wrap gap-2 justify-center max-w-80vw">
-            {techFilters.map((tech) => (
-              <button
-                key={tech}
-                onClick={() => handleFilter(tech)}
-                className={`px-3 py-1 border-2 rounded-full text-sm transition-colors ${
-                  selectedTech.includes(tech)
-                    ? "bg-white text-black border-white"
-                    : "bg-white/20 text-white hover:bg-white/40"
-                }`}
-              >
-                {tech}
-              </button>
-            ))}
-          </ul>
-
-          {/* Selected tech list */}
-          {selectedTech.length > 0 && (
-            <div className="mt-4 space-y-2">
-              <p className="text-gray-300 text-sm">
-                現在のフィルター:{" "}
-                <span className="text-white">
-                  {selectedTech.join(", ")}
-                </span>
-              </p>
-              <button
-                onClick={() => setSelectedTech([])}
-                className="px-3 py-1 bg-white/20 hover:bg-white/40 rounded-full text-sm text-white transition"
-              >
-                フィルターをクリア
-              </button>
-            </div>
-          )}
-        </motion.div>
-
-        {/* --- Project Cards Grid --- */}
-        <motion.div
-          layout
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-        >
-          {filteredProjects.map((project, index) => (
-            <motion.div
-              key={project.slug}
-              layout
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -10 }}
-              transition={{ duration: 0.4, delay: index * 0.1 }}
-              className="bg-white/10 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/20 hover:border-white/40 transition-colors"
-            >
-              <Link href={`/projects/${project.slug}`}>
-                <div className="aspect-video relative">
-                  <Image
-                    src={project.images[0]}
-                    alt={project.title}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  />
-                </div>
-                <div className="p-6">
-                  <h2 className="text-2xl font-semibold text-white mb-2">
-                    {project.title}
-                  </h2>
-                  <p className="text-gray-300 mb-4">
-                    {project.description}
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    {project.technologies.map((tech) => (
-                      <span
-                        key={tech}
-                        className="px-3 py-1 bg-white/20 rounded-full text-sm text-white"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </Link>
-            </motion.div>
-          ))}
-        </motion.div>
-
-        {/* --- No Results --- */}
-        {filteredProjects.length === 0 && (
-          <p className="text-gray-400 text-center mt-10">
-            該当するプロジェクトがありません。
+            {projects.length} works
           </p>
-        )}
+        </motion.div>
+
+        <ProjectCarousel3D projects={projects} />
+      </div>
+
+      {/* back link */}
+      <div className="flex justify-center" style={{ height: '50px', alignItems: 'center' }}>
+        <Link
+          href="/"
+          className="inline-flex items-center gap-2 text-sm transition-colors"
+          style={{ color: 'rgba(255,255,255,0.40)' }}
+          onMouseOver={(e) => (e.currentTarget.style.color = 'rgba(255,255,255,0.80)')}
+          onMouseOut={(e)  => (e.currentTarget.style.color = 'rgba(255,255,255,0.40)')}
+        >
+          <svg width="16" height="16" fill="none" viewBox="0 0 16 16">
+            <path d="M10 13L5 8l5-5" stroke="currentColor" strokeWidth="1.5"
+                  strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+          ホームに戻る
+        </Link>
       </div>
     </main>
-  );
+  )
 }

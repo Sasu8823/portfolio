@@ -376,8 +376,8 @@ export default function ProjectPage() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="bg-white/10 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/20 p-8"
         >
-          <h1 className="text-4xl font-bold text-white mb-6">{project.title}</h1>
-          <p className="text-xl text-gray-300 mb-8" style={{ whiteSpace: 'pre-line' }}>{project.description}</p>
+          <h1 className="text-[20px] md:text-4xl font-bold text-white mb-6">{project.title}</h1>
+          <p className="text-[16px] md:text-xl text-gray-300 mb-8" style={{ whiteSpace: 'pre-line' }}>{project.description}</p>
           
           <div className="flex flex-wrap gap-2 mb-8">
             {project.technologies.map((tech) => (

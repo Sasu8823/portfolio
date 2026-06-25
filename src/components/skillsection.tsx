@@ -14,13 +14,13 @@ const skills = [
     { name: "Mysql", percent: 85 },
 ];
 
-export default function SkillSection() {
+export default function SkillSection({ title = 'プログラミング言語' }: { title?: string }) {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
 
     return (
         <section ref={ref} className="py-32">
             <div className="max-w-4xl mx-auto text-center mt-20">
-                <h2 className="text-3xl font-bold mb-12">プログラミング言語</h2>
+                <h2 className="text-3xl font-bold mb-12">{title}</h2>
                 <div className="flex flex-wrap justify-center gap-16">
                     {skills.map(skill => (
                         <SkillCircle key={skill.name} skill={skill} visible={inView} />

@@ -6,8 +6,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'My Portfolio',
-  description: 'Welcome to my portfolio website',
+  title: '村越敏一 — フルスタック＆AIエンジニア',
+  description: '村越敏一のポートフォリオ。フルスタック開発・AI・Webアニメーションを専門とするエンジニアです。',
 }
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="ja">
       <body className={inter.className}>{children}</body>
     </html>
   )
