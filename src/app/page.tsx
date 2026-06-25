@@ -1,11 +1,11 @@
 import HomeClient from "./HomeClient";
 
 export const metadata = {
-  title: "Hendra | Fullstack & AI Engineer",
+  title: "Toshiichi Murakoshi | Fullstack & AI Engineer",
   description:
     "Freelance Fullstack & AI Engineer specializing in WordPress, Next.js, and AI automation.",
   openGraph: {
-    title: "Hendra – Fullstack & AI Engineer",
+    title: "Toshiichi Murakoshi – Fullstack & AI Engineer",
     description: "WordPress, AI automation, SaaS, and system development",
     url: "https://portfolio-hendras-projects.vercel.app",
     siteName: "ポートフォリオ",

@@ -13,7 +13,7 @@ export const translations = {
     },
     profile: {
       hello: 'こんにちは！',
-      name: '村越敏一',
+      name: '村越寿一',
       role: 'プロジェクトマネージャー / フルスタック＆AIエンジニア',
     },
     about: {
@@ -61,7 +61,7 @@ export const translations = {
     },
     profile: {
       hello: 'Hello!',
-      name: 'Toshinichi Murakoshi',
+      name: 'Toshiichi Murakoshi',
       role: 'Project Manager / Full Stack & AI Engineer',
     },
     about: {
@@ -109,7 +109,7 @@ export const translations = {
     },
     profile: {
       hello: 'Olá!',
-      name: 'Toshinichi Murakoshi',
+      name: 'Toshiichi Murakoshi',
       role: 'Gerente de Projetos / Engenheiro Full Stack & IA',
     },
     about: {
